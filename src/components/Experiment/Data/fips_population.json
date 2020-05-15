@@ -1,0 +1,656 @@
+{
+  "id": "datamart.upload.2f6a998b4f5c4c589aaf990c867446b9",
+  "score": 9.362234,
+  "metadata": {
+    "name": "FIPS Population",
+    "source": "upload",
+    "description": "Population estimates for the U.S., States, and counties, 2010 and 17",
+    "date": "2020-04-30T00:20:03.997846Z",
+    "size": 91380,
+    "nb_rows": 3273,
+    "nb_profiled_rows": 3273,
+    "columns": [
+      {
+        "name": "FIPS",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 31358.511762908645,
+        "stddev": 16302.697908286462,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 250,
+              "bin_start": 0,
+              "bin_end": 7215.3
+            },
+            {
+              "count": 308,
+              "bin_start": 7215.3,
+              "bin_end": 14430.6
+            },
+            {
+              "count": 574,
+              "bin_start": 14430.6,
+              "bin_end": 21645.9
+            },
+            {
+              "count": 377,
+              "bin_start": 21645.9,
+              "bin_end": 28861.2
+            },
+            {
+              "count": 391,
+              "bin_start": 28861.2,
+              "bin_end": 36076.5
+            },
+            {
+              "count": 451,
+              "bin_start": 36076.5,
+              "bin_end": 43291.8
+            },
+            {
+              "count": 516,
+              "bin_start": 43291.8,
+              "bin_end": 50507.1
+            },
+            {
+              "count": 327,
+              "bin_start": 50507.1,
+              "bin_end": 57722.4
+            },
+            {
+              "count": 0,
+              "bin_start": 57722.4,
+              "bin_end": 64937.700000000004
+            },
+            {
+              "count": 79,
+              "bin_start": 64937.700000000004,
+              "bin_end": 72153
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 1117,
+              "lte": 22041
+            }
+          },
+          {
+            "range": {
+              "gte": 45079,
+              "lte": 72061
+            }
+          },
+          {
+            "range": {
+              "gte": 26031,
+              "lte": 42021
+            }
+          }
+        ]
+      },
+      {
+        "name": "births_2017",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "missing_values_ratio": 0.02413687748243202,
+        "mean": 3616.865261228231,
+        "stddev": 70600.69789334912,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 3191,
+              "bin_start": 0,
+              "bin_end": 394600
+            },
+            {
+              "count": 2,
+              "bin_start": 394600,
+              "bin_end": 789200
+            },
+            {
+              "count": 0,
+              "bin_start": 789200,
+              "bin_end": 1183800
+            },
+            {
+              "count": 0,
+              "bin_start": 1183800,
+              "bin_end": 1578400
+            },
+            {
+              "count": 0,
+              "bin_start": 1578400,
+              "bin_end": 1973000
+            },
+            {
+              "count": 0,
+              "bin_start": 1973000,
+              "bin_end": 2367600
+            },
+            {
+              "count": 0,
+              "bin_start": 2367600,
+              "bin_end": 2762200
+            },
+            {
+              "count": 0,
+              "bin_start": 2762200,
+              "bin_end": 3156800
+            },
+            {
+              "count": 0,
+              "bin_start": 3156800,
+              "bin_end": 3551400
+            },
+            {
+              "count": 1,
+              "bin_start": 3551400,
+              "bin_end": 3946000
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 29,
+              "lte": 6852
+            }
+          },
+          {
+            "range": {
+              "gte": 3946000,
+              "lte": 3946000
+            }
+          },
+          {
+            "range": {
+              "gte": 101515,
+              "lte": 487916
+            }
+          }
+        ]
+      },
+      {
+        "name": "deaths_2017",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "missing_values_ratio": 0.02413687748243202,
+        "mean": 2515.160403299725,
+        "stddev": 48919.75145137452,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 3193,
+              "bin_start": 0,
+              "bin_end": 274404
+            },
+            {
+              "count": 0,
+              "bin_start": 274404,
+              "bin_end": 548808
+            },
+            {
+              "count": 0,
+              "bin_start": 548808,
+              "bin_end": 823212
+            },
+            {
+              "count": 0,
+              "bin_start": 823212,
+              "bin_end": 1097616
+            },
+            {
+              "count": 0,
+              "bin_start": 1097616,
+              "bin_end": 1372020
+            },
+            {
+              "count": 0,
+              "bin_start": 1372020,
+              "bin_end": 1646424
+            },
+            {
+              "count": 0,
+              "bin_start": 1646424,
+              "bin_end": 1920828
+            },
+            {
+              "count": 0,
+              "bin_start": 1920828,
+              "bin_end": 2195232
+            },
+            {
+              "count": 0,
+              "bin_start": 2195232,
+              "bin_end": 2469636
+            },
+            {
+              "count": 1,
+              "bin_start": 2469636,
+              "bin_end": 2744040
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 24,
+              "lte": 4374
+            }
+          },
+          {
+            "range": {
+              "gte": 2744040,
+              "lte": 2744040
+            }
+          },
+          {
+            "range": {
+              "gte": 56457,
+              "lte": 273977
+            }
+          }
+        ]
+      },
+      {
+        "name": "population_2017",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 300590.24992361746,
+        "stddev": 5822191.644446048,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 3271,
+              "bin_start": 88,
+              "bin_end": 32571997
+            },
+            {
+              "count": 1,
+              "bin_start": 32571997,
+              "bin_end": 65143906
+            },
+            {
+              "count": 0,
+              "bin_start": 65143906,
+              "bin_end": 97715815
+            },
+            {
+              "count": 0,
+              "bin_start": 97715815,
+              "bin_end": 130287724
+            },
+            {
+              "count": 0,
+              "bin_start": 130287724,
+              "bin_end": 162859633
+            },
+            {
+              "count": 0,
+              "bin_start": 162859633,
+              "bin_end": 195431542
+            },
+            {
+              "count": 0,
+              "bin_start": 195431542,
+              "bin_end": 228003451
+            },
+            {
+              "count": 0,
+              "bin_start": 228003451,
+              "bin_end": 260575360
+            },
+            {
+              "count": 0,
+              "bin_start": 260575360,
+              "bin_end": 293147269
+            },
+            {
+              "count": 1,
+              "bin_start": 293147269,
+              "bin_end": 325719178
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 2851,
+              "lte": 547545
+            }
+          },
+          {
+            "range": {
+              "gte": 325719178,
+              "lte": 325719178
+            }
+          },
+          {
+            "range": {
+              "gte": 8470020,
+              "lte": 39536653
+            }
+          }
+        ]
+      },
+      {
+        "name": "population_2010",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 285267.94072716165,
+        "stddev": 5516609.041589525,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 3271,
+              "bin_start": 82,
+              "bin_end": 30874627.6
+            },
+            {
+              "count": 1,
+              "bin_start": 30874627.6,
+              "bin_end": 61749173.2
+            },
+            {
+              "count": 0,
+              "bin_start": 61749173.2,
+              "bin_end": 92623718.80000001
+            },
+            {
+              "count": 0,
+              "bin_start": 92623718.80000001,
+              "bin_end": 123498264.4
+            },
+            {
+              "count": 0,
+              "bin_start": 123498264.4,
+              "bin_end": 154372810
+            },
+            {
+              "count": 0,
+              "bin_start": 154372810,
+              "bin_end": 185247355.60000002
+            },
+            {
+              "count": 0,
+              "bin_start": 185247355.60000002,
+              "bin_end": 216121901.20000002
+            },
+            {
+              "count": 0,
+              "bin_start": 216121901.20000002,
+              "bin_end": 246996446.8
+            },
+            {
+              "count": 0,
+              "bin_start": 246996446.8,
+              "bin_end": 277870992.40000004
+            },
+            {
+              "count": 1,
+              "bin_start": 277870992.40000004,
+              "bin_end": 308745538
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 2970,
+              "lte": 515269
+            }
+          },
+          {
+            "range": {
+              "gte": 308745538,
+              "lte": 308745538
+            }
+          },
+          {
+            "range": {
+              "gte": 8001024,
+              "lte": 37253956
+            }
+          }
+        ]
+      },
+      {
+        "name": "Unnamed: 5",
+        "structural_type": "https://metadata.datadrivendiscovery.org/types/MissingData",
+        "semantic_types": []
+      }
+    ],
+    "sample": "FIPS,births_2017,deaths_2017,population_2017,population_2010,Unnamed: 5\n01071,554,686,51909,53227,\n04007,589,831,53501,53597,\n08031,9894,4821,704621,600158,\n13181,88,95,7880,7996,\n17123,138,141,11730,12640,\n17169,63,70,7035,7544,\n19091,105,109,9564,9815,\n20209,2716,1392,165288,157505,\n21141,353,273,27060,26835,\n24045,1243,1046,102923,98733,\n28073,793,422,61374,55658,\n28131,206,183,18112,17786,\n35006,334,282,26853,27213,\n36101,1033,1003,96281,98990,\n39119,1009,955,86149,86074,\n39165,2376,1785,228882,212693,\n40031,1699,1064,121526,124098,\n46121,268,124,10065,9612,\n47139,164,214,16757,16825,\n48237,93,71,8832,9044,\n",
+    "materialize": {
+      "date": "2019-08-29T20:16:29.975062Z",
+      "identifier": "datamart.upload"
+    },
+    "version": "v0.5.7-181-g3a969d6",
+    "id": "datamart.upload.2f6a998b4f5c4c589aaf990c867446b9"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [[0]],
+    "right_columns": [[0]],
+    "left_columns_names": [["FIPS"]],
+    "right_columns_names": [["FIPS"]],
+    "scores": [{ "joinability": 1.0, "correlation": 0.89 }],
+    "new_columns": [
+      [
+        {
+          "types": {},
+          "orig_name": "births_2017",
+          "agg_function": "mean",
+          "name": "MEAN(births_2017)",
+          "score": 0.92
+        },
+        {
+          "types": {},
+          "orig_name": "births_2017",
+          "agg_function": "sum",
+          "name": "SUM(births_2017)",
+          "score": 0.92
+        },
+        {
+          "types": {},
+          "orig_name": "births_2017",
+          "agg_function": "max",
+          "name": "MAX(births_2017)",
+          "score": 0.92
+        },
+        {
+          "types": {},
+          "orig_name": "births_2017",
+          "agg_function": "min",
+          "name": "MIN(births_2017)",
+          "score": 0.92
+        },
+        {
+          "types": {},
+          "orig_name": "deaths_2017",
+          "agg_function": "mean",
+          "name": "MEAN(deaths_2017)",
+          "score": 0.88
+        },
+        {
+          "types": {},
+          "orig_name": "deaths_2017",
+          "agg_function": "sum",
+          "name": "SUM(deaths_2017)",
+          "score": 0.88
+        },
+        {
+          "types": {},
+          "orig_name": "deaths_2017",
+          "agg_function": "max",
+          "name": "MAX(deaths_2017)",
+          "score": 0.88
+        },
+        {
+          "types": {},
+          "orig_name": "deaths_2017",
+          "agg_function": "min",
+          "name": "MIN(deaths_2017)",
+          "score": 0.88
+        },
+        {
+          "types": {},
+          "orig_name": "population_2017",
+          "agg_function": "mean",
+          "name": "MEAN(population_2017)",
+          "score": 0.87
+        },
+        {
+          "types": {},
+          "orig_name": "population_2017",
+          "agg_function": "sum",
+          "name": "SUM(population_2017)",
+          "score": 0.87
+        },
+        {
+          "types": {},
+          "orig_name": "population_2017",
+          "agg_function": "max",
+          "name": "MAX(population_2017)",
+          "score": 0.87
+        },
+        {
+          "types": {},
+          "orig_name": "population_2017",
+          "agg_function": "min",
+          "name": "MIN(population_2017)",
+          "score": 0.87
+        },
+        {
+          "types": {},
+          "orig_name": "population_2010",
+          "agg_function": "mean",
+          "name": "MEAN(population_2010)",
+          "score": 0.89
+        },
+        {
+          "types": {},
+          "orig_name": "population_2010",
+          "agg_function": "sum",
+          "name": "SUM(population_2010)",
+          "score": 0.89
+        },
+        {
+          "types": {},
+          "orig_name": "population_2010",
+          "agg_function": "max",
+          "name": "MAX(population_2010)",
+          "score": 0.89
+        },
+        {
+          "types": {},
+          "orig_name": "population_2010",
+          "agg_function": "min",
+          "name": "MIN(population_2010)",
+          "score": 0.89
+        }
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.upload.2f6a998b4f5c4c589aaf990c867446b9",
+      "datasetName": "FIPS Population",
+      "license": "unknown",
+      "approximateSize": "91380 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "Population estimates for the U.S., States, and counties, 2010 and 17"
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": ["csv"]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "FIPS",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 1,
+            "colName": "births_2017",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 2,
+            "colName": "deaths_2017",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 3,
+            "colName": "population_2017",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 4,
+            "colName": "population_2010",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 5,
+            "colName": "Unnamed: 5",
+            "colType": "string",
+            "role": ["attribute"]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    [
+      "FIPS",
+      "births_2017",
+      "deaths_2017",
+      "population_2017",
+      "population_2010",
+      "Unnamed: 5"
+    ],
+    ["01071", "554", "686", "51909", "53227", ""],
+    ["04007", "589", "831", "53501", "53597", ""],
+    ["08031", "9894", "4821", "704621", "600158", ""],
+    ["13181", "88", "95", "7880", "7996", ""],
+    ["17123", "138", "141", "11730", "12640", ""],
+    ["17169", "63", "70", "7035", "7544", ""],
+    ["19091", "105", "109", "9564", "9815", ""],
+    ["20209", "2716", "1392", "165288", "157505", ""],
+    ["21141", "353", "273", "27060", "26835", ""],
+    ["24045", "1243", "1046", "102923", "98733", ""],
+    ["28073", "793", "422", "61374", "55658", ""],
+    ["28131", "206", "183", "18112", "17786", ""],
+    ["35006", "334", "282", "26853", "27213", ""],
+    ["36101", "1033", "1003", "96281", "98990", ""],
+    ["39119", "1009", "955", "86149", "86074", ""],
+    ["39165", "2376", "1785", "228882", "212693", ""],
+    ["40031", "1699", "1064", "121526", "124098", ""],
+    ["46121", "268", "124", "10065", "9612", ""],
+    ["47139", "164", "214", "16757", "16825", ""],
+    ["48237", "93", "71", "8832", "9044", ""]
+  ]
+}

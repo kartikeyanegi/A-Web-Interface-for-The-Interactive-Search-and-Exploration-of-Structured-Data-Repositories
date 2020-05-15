@@ -1,0 +1,439 @@
+{
+  "id": "datamart.upload.4095f5182de54d2fb4ceb5bc6268f627",
+  "score": 17.54749,
+  "metadata": {
+    "name": "Vehicle Collisions Jul-Dec 2014",
+    "source": "upload",
+    "description": "This dataset contains all the vehicle collisions in NYC between July and December 2014. This is b...",
+    "date": "2020-04-30T00:26:41.940636Z",
+    "size": 4080,
+    "nb_rows": 184,
+    "nb_profiled_rows": 184,
+    "columns": [
+      {
+        "name": "datetime",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/DateTime"
+        ],
+        "num_distinct_values": 184,
+        "mean": 1412078400,
+        "stddev": 4589174.043332852,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1414886400,
+              "lte": 1419724800
+            }
+          },
+          {
+            "range": {
+              "gte": 1409616000,
+              "lte": 1414281600
+            }
+          },
+          {
+            "range": {
+              "gte": 1404432000,
+              "lte": 1409097600
+            }
+          }
+        ],
+        "temporal_resolution": "day",
+        "plot": {
+          "type": "histogram_temporal",
+          "data": [
+            {
+              "count": 19,
+              "date_start": "2014-07-01T00:00:00",
+              "date_end": "2014-07-19T07:10:56"
+            },
+            {
+              "count": 18,
+              "date_start": "2014-07-19T07:10:56",
+              "date_end": "2014-08-06T14:24:00"
+            },
+            {
+              "count": 18,
+              "date_start": "2014-08-06T14:24:00",
+              "date_end": "2014-08-24T21:37:04"
+            },
+            {
+              "count": 19,
+              "date_start": "2014-08-24T21:37:04",
+              "date_end": "2014-09-12T04:48:00"
+            },
+            {
+              "count": 18,
+              "date_start": "2014-09-12T04:48:00",
+              "date_end": "2014-09-30T11:58:56"
+            },
+            {
+              "count": 18,
+              "date_start": "2014-09-30T11:58:56",
+              "date_end": "2014-10-18T19:12:00"
+            },
+            {
+              "count": 19,
+              "date_start": "2014-10-18T19:12:00",
+              "date_end": "2014-11-06T02:25:04"
+            },
+            {
+              "count": 18,
+              "date_start": "2014-11-06T02:25:04",
+              "date_end": "2014-11-24T09:36:00"
+            },
+            {
+              "count": 18,
+              "date_start": "2014-11-24T09:36:00",
+              "date_end": "2014-12-12T16:46:56"
+            },
+            {
+              "count": 19,
+              "date_start": "2014-12-12T16:46:56",
+              "date_end": "2014-12-31T00:00:00"
+            }
+          ]
+        }
+      },
+      {
+        "name": "n. trips",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 432794.14130434784,
+        "stddev": 49787.04920864407,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 1,
+              "bin_start": 210250,
+              "bin_end": 245365.4
+            },
+            {
+              "count": 1,
+              "bin_start": 245365.4,
+              "bin_end": 280480.8
+            },
+            {
+              "count": 4,
+              "bin_start": 280480.8,
+              "bin_end": 315596.2
+            },
+            {
+              "count": 6,
+              "bin_start": 315596.2,
+              "bin_end": 350711.6
+            },
+            {
+              "count": 14,
+              "bin_start": 350711.6,
+              "bin_end": 385827
+            },
+            {
+              "count": 40,
+              "bin_start": 385827,
+              "bin_end": 420942.4
+            },
+            {
+              "count": 59,
+              "bin_start": 420942.4,
+              "bin_end": 456057.80000000005
+            },
+            {
+              "count": 37,
+              "bin_start": 456057.80000000005,
+              "bin_end": 491173.2
+            },
+            {
+              "count": 21,
+              "bin_start": 491173.2,
+              "bin_end": 526288.6000000001
+            },
+            {
+              "count": 1,
+              "bin_start": 526288.6000000001,
+              "bin_end": 561404
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 393656,
+              "lte": 449110
+            }
+          },
+          {
+            "range": {
+              "gte": 456003,
+              "lte": 513702
+            }
+          },
+          {
+            "range": {
+              "gte": 278667,
+              "lte": 380140
+            }
+          }
+        ]
+      },
+      {
+        "name": "n. collisions",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 569.0271739130435,
+        "stddev": 86.03250346748489,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 1,
+              "bin_start": 303,
+              "bin_end": 346.9
+            },
+            {
+              "count": 4,
+              "bin_start": 346.9,
+              "bin_end": 390.8
+            },
+            {
+              "count": 8,
+              "bin_start": 390.8,
+              "bin_end": 434.7
+            },
+            {
+              "count": 16,
+              "bin_start": 434.7,
+              "bin_end": 478.6
+            },
+            {
+              "count": 23,
+              "bin_start": 478.6,
+              "bin_end": 522.5
+            },
+            {
+              "count": 33,
+              "bin_start": 522.5,
+              "bin_end": 566.4
+            },
+            {
+              "count": 37,
+              "bin_start": 566.4,
+              "bin_end": 610.3
+            },
+            {
+              "count": 37,
+              "bin_start": 610.3,
+              "bin_end": 654.2
+            },
+            {
+              "count": 14,
+              "bin_start": 654.2,
+              "bin_end": 698.0999999999999
+            },
+            {
+              "count": 11,
+              "bin_start": 698.0999999999999,
+              "bin_end": 742
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 349,
+              "lte": 495
+            }
+          },
+          {
+            "range": {
+              "gte": 614,
+              "lte": 730
+            }
+          },
+          {
+            "range": {
+              "gte": 512,
+              "lte": 605
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "datetime,n. trips,n. collisions\n2014-07-06,313544,451\n2014-07-07,378451,614\n2014-07-09,448579,569\n2014-07-15,436616,587\n2014-08-02,440096,540\n2014-08-04,392871,589\n2014-08-14,439289,625\n2014-08-15,444148,522\n2014-09-04,469500,727\n2014-09-11,478607,619\n2014-09-13,513501,558\n2014-09-15,421980,610\n2014-10-16,481635,602\n2014-10-28,434802,571\n2014-10-31,494320,668\n2014-11-11,402435,493\n2014-11-12,444745,546\n2014-12-08,431042,579\n2014-12-18,482660,621\n2014-12-31,405293,461\n",
+    "materialize": {
+      "date": "2019-08-29T20:10:45.530417Z",
+      "identifier": "datamart.upload"
+    },
+    "version": "v0.5.7-181-g3a969d6",
+    "id": "datamart.upload.4095f5182de54d2fb4ceb5bc6268f627"
+  },
+  "augmentation": {
+    "type": "none",
+    "left_columns": [],
+    "left_columns_names": [],
+    "right_columns": [],
+    "right_columns_names": []
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.upload.4095f5182de54d2fb4ceb5bc6268f627",
+      "datasetName": "Vehicle Collisions Jul-Dec 2014",
+      "license": "unknown",
+      "approximateSize": "4080 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "This dataset contains all the vehicle collisions in NYC between July and December 2014. This is b..."
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": [
+            "csv"
+          ]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "datetime",
+            "colType": "dateTime",
+            "role": [
+              "attribute"
+            ]
+          },
+          {
+            "colIndex": 1,
+            "colName": "n. trips",
+            "colType": "integer",
+            "role": [
+              "attribute"
+            ]
+          },
+          {
+            "colIndex": 2,
+            "colName": "n. collisions",
+            "colType": "integer",
+            "role": [
+              "attribute"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    [
+      "datetime",
+      "n. trips",
+      "n. collisions"
+    ],
+    [
+      "2014-07-06",
+      "313544",
+      "451"
+    ],
+    [
+      "2014-07-07",
+      "378451",
+      "614"
+    ],
+    [
+      "2014-07-09",
+      "448579",
+      "569"
+    ],
+    [
+      "2014-07-15",
+      "436616",
+      "587"
+    ],
+    [
+      "2014-08-02",
+      "440096",
+      "540"
+    ],
+    [
+      "2014-08-04",
+      "392871",
+      "589"
+    ],
+    [
+      "2014-08-14",
+      "439289",
+      "625"
+    ],
+    [
+      "2014-08-15",
+      "444148",
+      "522"
+    ],
+    [
+      "2014-09-04",
+      "469500",
+      "727"
+    ],
+    [
+      "2014-09-11",
+      "478607",
+      "619"
+    ],
+    [
+      "2014-09-13",
+      "513501",
+      "558"
+    ],
+    [
+      "2014-09-15",
+      "421980",
+      "610"
+    ],
+    [
+      "2014-10-16",
+      "481635",
+      "602"
+    ],
+    [
+      "2014-10-28",
+      "434802",
+      "571"
+    ],
+    [
+      "2014-10-31",
+      "494320",
+      "668"
+    ],
+    [
+      "2014-11-11",
+      "402435",
+      "493"
+    ],
+    [
+      "2014-11-12",
+      "444745",
+      "546"
+    ],
+    [
+      "2014-12-08",
+      "431042",
+      "579"
+    ],
+    [
+      "2014-12-18",
+      "482660",
+      "621"
+    ],
+    [
+      "2014-12-31",
+      "405293",
+      "461"
+    ]
+  ]
+}

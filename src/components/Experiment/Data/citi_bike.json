@@ -1,0 +1,297 @@
+{
+  "id": "datamart.upload.c90cd58ac0c54b169580b49b387cc59e",
+  "score": 9.45122,
+  "metadata": {
+    "name": "Citi Bike Data 2014",
+    "source": "upload",
+    "description": "This dataset contains the daily number of Citi Bike trips in NYC for the year of 2014.",
+    "date": "2020-04-30T00:19:25.989460Z",
+    "size": 6170,
+    "nb_rows": 365,
+    "nb_profiled_rows": 365,
+    "columns": [
+      {
+        "name": "starttime",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/DateTime"],
+        "num_distinct_values": 365,
+        "mean": 1404259200,
+        "stddev": 9103624.878036221,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1399680000,
+              "lte": 1409097600
+            }
+          },
+          {
+            "range": {
+              "gte": 1389052800,
+              "lte": 1398556800
+            }
+          },
+          {
+            "range": {
+              "gte": 1410220800,
+              "lte": 1419552000
+            }
+          }
+        ],
+        "temporal_resolution": "day",
+        "plot": {
+          "type": "histogram_temporal",
+          "data": [
+            {
+              "count": 37,
+              "date_start": "2014-01-01T00:00:00",
+              "date_end": "2014-02-06T09:36:00"
+            },
+            {
+              "count": 36,
+              "date_start": "2014-02-06T09:36:00",
+              "date_end": "2014-03-14T19:12:00"
+            },
+            {
+              "count": 37,
+              "date_start": "2014-03-14T19:12:00",
+              "date_end": "2014-04-20T04:48:00"
+            },
+            {
+              "count": 36,
+              "date_start": "2014-04-20T04:48:00",
+              "date_end": "2014-05-26T14:24:00"
+            },
+            {
+              "count": 36,
+              "date_start": "2014-05-26T14:24:00",
+              "date_end": "2014-07-02T00:00:00"
+            },
+            {
+              "count": 37,
+              "date_start": "2014-07-02T00:00:00",
+              "date_end": "2014-08-07T09:36:00"
+            },
+            {
+              "count": 36,
+              "date_start": "2014-08-07T09:36:00",
+              "date_end": "2014-09-12T19:12:00"
+            },
+            {
+              "count": 37,
+              "date_start": "2014-09-12T19:12:00",
+              "date_end": "2014-10-19T04:48:00"
+            },
+            {
+              "count": 36,
+              "date_start": "2014-10-19T04:48:00",
+              "date_end": "2014-11-24T14:24:00"
+            },
+            {
+              "count": 37,
+              "date_start": "2014-11-24T14:24:00",
+              "date_end": "2014-12-31T00:00:00"
+            }
+          ]
+        }
+      },
+      {
+        "name": "n. citibike trips",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 22140.317808219177,
+        "stddev": 10300.702978954489,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 18,
+              "bin_start": 876,
+              "bin_end": 4650.3
+            },
+            {
+              "count": 23,
+              "bin_start": 4650.3,
+              "bin_end": 8424.6
+            },
+            {
+              "count": 36,
+              "bin_start": 8424.6,
+              "bin_end": 12198.900000000001
+            },
+            {
+              "count": 40,
+              "bin_start": 12198.900000000001,
+              "bin_end": 15973.2
+            },
+            {
+              "count": 34,
+              "bin_start": 15973.2,
+              "bin_end": 19747.5
+            },
+            {
+              "count": 30,
+              "bin_start": 19747.5,
+              "bin_end": 23521.800000000003
+            },
+            {
+              "count": 40,
+              "bin_start": 23521.800000000003,
+              "bin_end": 27296.100000000002
+            },
+            {
+              "count": 48,
+              "bin_start": 27296.100000000002,
+              "bin_end": 31070.4
+            },
+            {
+              "count": 56,
+              "bin_start": 31070.4,
+              "bin_end": 34844.700000000004
+            },
+            {
+              "count": 40,
+              "bin_start": 34844.700000000004,
+              "bin_end": 38619
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 26784,
+              "lte": 37081
+            }
+          },
+          {
+            "range": {
+              "gte": 2600,
+              "lte": 13816
+            }
+          },
+          {
+            "range": {
+              "gte": 15818,
+              "lte": 25637
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "starttime,n. citibike trips\n2014-02-04,8709\n2014-03-20,19695\n2014-03-26,14500\n2014-03-27,16666\n2014-05-05,30288\n2014-05-09,22641\n2014-05-22,24535\n2014-05-26,26930\n2014-06-08,30162\n2014-06-15,28382\n2014-06-30,33597\n2014-07-08,32713\n2014-09-01,23575\n2014-09-06,25833\n2014-10-11,12965\n2014-11-26,3675\n2014-11-28,8378\n2014-12-03,13472\n2014-12-11,18141\n2014-12-18,19051\n",
+    "materialize": {
+      "date": "2019-08-29T20:10:45.529426Z",
+      "identifier": "datamart.upload"
+    },
+    "version": "v0.5.7-181-g3a969d6",
+    "id": "datamart.upload.c90cd58ac0c54b169580b49b387cc59e"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [[0]],
+    "right_columns": [[0]],
+    "left_columns_names": [["datetime"]],
+    "right_columns_names": [["starttime"]],
+    "scores": [{ "joinability": 1.0, "correlation": 0.28 }],
+    "new_columns": [
+      [
+        {
+          "types": {},
+          "orig_name": "n. citibike trips",
+          "agg_function": "first",
+          "name": "FIRST(n. citibike trips)",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "n. citibike trips",
+          "agg_function": "mean",
+          "name": "MEAN(n. citibike trips)",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "n. citibike trips",
+          "agg_function": "sum",
+          "name": "SUM(n. citibike trips)",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "n. citibike trips",
+          "agg_function": "max",
+          "name": "MAX(n. citibike trips)",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "n. citibike trips",
+          "agg_function": "min",
+          "name": "MIN(n. citibike trips)",
+          "score": 0.28
+        }
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.upload.c90cd58ac0c54b169580b49b387cc59e",
+      "datasetName": "Citi Bike Data 2014",
+      "license": "unknown",
+      "approximateSize": "6170 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "This dataset contains the daily number of Citi Bike trips in NYC for the year of 2014."
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": ["csv"]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "starttime",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 1,
+            "colName": "n. citibike trips",
+            "colType": "integer",
+            "role": ["attribute"]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    ["starttime", "n. citibike trips"],
+    ["2014-02-04", "8709"],
+    ["2014-03-20", "19695"],
+    ["2014-03-26", "14500"],
+    ["2014-03-27", "16666"],
+    ["2014-05-05", "30288"],
+    ["2014-05-09", "22641"],
+    ["2014-05-22", "24535"],
+    ["2014-05-26", "26930"],
+    ["2014-06-08", "30162"],
+    ["2014-06-15", "28382"],
+    ["2014-06-30", "33597"],
+    ["2014-07-08", "32713"],
+    ["2014-09-01", "23575"],
+    ["2014-09-06", "25833"],
+    ["2014-10-11", "12965"],
+    ["2014-11-26", "3675"],
+    ["2014-11-28", "8378"],
+    ["2014-12-03", "13472"],
+    ["2014-12-11", "18141"],
+    ["2014-12-18", "19051"]
+  ]
+}

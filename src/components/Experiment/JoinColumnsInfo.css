@@ -1,0 +1,20 @@
+.join-table {
+  width: 100%;
+}
+
+.join-table thead th {
+  font-size: .75rem;
+  text-align: center!important;
+  color: #6c757d!important;
+  font-weight: normal;
+}
+
+.join-table tbody td {
+  text-align: center!important;
+}
+
+.join-table tr td {
+  padding: 0.2rem 0 0.2rem 0;
+  vertical-align: middle;
+  /* border-top: 1px solid #dee2e6; */
+}

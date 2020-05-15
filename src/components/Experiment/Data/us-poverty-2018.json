@@ -1,0 +1,553 @@
+{
+  "id": "datamart.upload.976a384921d34ca1a6304a6c7bc256d7",
+  "score": 10,
+  "metadata": {
+    "filename": "poverty_estimation.csv",
+    "name": "Poverty by US State 2016",
+    "source": "upload",
+    "description": "This dataset contains poverty levels for all US states in 2016.",
+    "size": 100393,
+    "nb_rows": 3136,
+    "nb_profiled_rows": 3136,
+    "columns": [
+      {
+        "name": "FIPS",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "mean": 30433.487882653062,
+        "stddev": 15130.231695450553,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 239,
+              "bin_start": 1001,
+              "bin_end": 6505.4
+            },
+            {
+              "count": 81,
+              "bin_start": 6505.4,
+              "bin_end": 12009.8
+            },
+            {
+              "count": 371,
+              "bin_start": 12009.8,
+              "bin_end": 17514.199999999997
+            },
+            {
+              "count": 489,
+              "bin_start": 17514.199999999997,
+              "bin_end": 23018.6
+            },
+            {
+              "count": 297,
+              "bin_start": 23018.6,
+              "bin_end": 28523
+            },
+            {
+              "count": 305,
+              "bin_start": 28523,
+              "bin_end": 34027.399999999994
+            },
+            {
+              "count": 343,
+              "bin_start": 34027.399999999994,
+              "bin_end": 39531.799999999996
+            },
+            {
+              "count": 203,
+              "bin_start": 39531.799999999996,
+              "bin_end": 45036.2
+            },
+            {
+              "count": 486,
+              "bin_start": 45036.2,
+              "bin_end": 50540.6
+            },
+            {
+              "count": 322,
+              "bin_start": 50540.6,
+              "bin_end": 56045
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 26025,
+              "lte": 40053
+            }
+          },
+          {
+            "range": {
+              "gte": 1119,
+              "lte": 22041
+            }
+          },
+          {
+            "range": {
+              "gte": 42021,
+              "lte": 55095
+            }
+          }
+        ]
+      },
+      {
+        "name": "State",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Enumeration"
+        ],
+        "num_distinct_values": 51,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "CT",
+              "count": 8
+            },
+            {
+              "bin": "DC",
+              "count": 1
+            },
+            {
+              "bin": "DE",
+              "count": 3
+            },
+            {
+              "bin": "HI",
+              "count": 4
+            },
+            {
+              "bin": "RI",
+              "count": 5
+            }
+          ]
+        }
+      },
+      {
+        "name": "Area",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [],
+        "num_distinct_values": 1871
+      },
+      {
+        "name": "RUCCode",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "mean": 5.124362244897959,
+        "stddev": 2.6815161625474437,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 414,
+              "bin_start": 1,
+              "bin_end": 1.8
+            },
+            {
+              "count": 325,
+              "bin_start": 1.8,
+              "bin_end": 2.6
+            },
+            {
+              "count": 350,
+              "bin_start": 2.6,
+              "bin_end": 3.4000000000000004
+            },
+            {
+              "count": 218,
+              "bin_start": 3.4000000000000004,
+              "bin_end": 4.2
+            },
+            {
+              "count": 0,
+              "bin_start": 4.2,
+              "bin_end": 5
+            },
+            {
+              "count": 105,
+              "bin_start": 5,
+              "bin_end": 5.800000000000001
+            },
+            {
+              "count": 608,
+              "bin_start": 5.800000000000001,
+              "bin_end": 6.6000000000000005
+            },
+            {
+              "count": 449,
+              "bin_start": 6.6000000000000005,
+              "bin_end": 7.4
+            },
+            {
+              "count": 235,
+              "bin_start": 7.4,
+              "bin_end": 8.2
+            },
+            {
+              "count": 432,
+              "bin_start": 8.2,
+              "bin_end": 9
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 8,
+              "lte": 9
+            }
+          },
+          {
+            "range": {
+              "gte": 1,
+              "lte": 4
+            }
+          },
+          {
+            "range": {
+              "gte": 5,
+              "lte": 7
+            }
+          }
+        ]
+      },
+      {
+        "name": "POVALL_2016",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "mean": 14115.710140306122,
+        "stddev": 49981.18354946145,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 3099,
+              "bin_start": 15,
+              "bin_end": 162958.5
+            },
+            {
+              "count": 23,
+              "bin_start": 162958.5,
+              "bin_end": 325902
+            },
+            {
+              "count": 9,
+              "bin_start": 325902,
+              "bin_end": 488845.5
+            },
+            {
+              "count": 2,
+              "bin_start": 488845.5,
+              "bin_end": 651789
+            },
+            {
+              "count": 2,
+              "bin_start": 651789,
+              "bin_end": 814732.5
+            },
+            {
+              "count": 0,
+              "bin_start": 814732.5,
+              "bin_end": 977676
+            },
+            {
+              "count": 0,
+              "bin_start": 977676,
+              "bin_end": 1140619.5
+            },
+            {
+              "count": 0,
+              "bin_start": 1140619.5,
+              "bin_end": 1303563
+            },
+            {
+              "count": 0,
+              "bin_start": 1303563,
+              "bin_end": 1466506.5
+            },
+            {
+              "count": 1,
+              "bin_start": 1466506.5,
+              "bin_end": 1629450
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 370,
+              "lte": 45710
+            }
+          },
+          {
+            "range": {
+              "gte": 1629450,
+              "lte": 1629450
+            }
+          },
+          {
+            "range": {
+              "gte": 173996,
+              "lte": 752261
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "FIPS,State,Area,RUCCode,POVALL_2016\n35047,NM,San Miguel County,6,6856\n37075,NC,Graham County,9,1675\n21137,KY,Lincoln County,7,5499\n21061,KY,Edmonson County,3,2668\n29151,MO,Osage County,3,1139\n13167,GA,Johnson County,9,2277\n42007,PA,Beaver County,1,15998\n17133,IL,Monroe County,1,1599\n28073,MS,Lamar County,3,7614\n55078,WI,Menominee County,8,1214\n6035,CA,Lassen County,6,4085\n22061,LA,Lincoln Parish,4,12959\n22029,LA,Concordia Parish,7,5239\n16085,ID,Valley County,8,998\n33007,NH,Coos County,7,4072\n15001,HI,Hawaii County,5,29962\n1009,AL,Blount County,1,8033\n19143,IA,Osceola County,7,625\n51770,VA,Roanoke city,2,21886\n48435,TX,Sutton County,7,542\n",
+    "materialize": {
+      "identifier": "datamart.upload",
+      "date": "2020-05-07T17:55:22.403896Z"
+    },
+    "date": "2020-05-07T17:55:25.006086Z",
+    "version": "v0.6-38-g91a35ac",
+    "id": "datamart.upload.976a384921d34ca1a6304a6c7bc256d7"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [
+      [
+        0
+      ]
+    ],
+    "right_columns": [
+      [
+        0
+      ]
+    ],
+    "left_columns_names": [
+      [
+        "FIPS"
+      ]
+    ],
+    "right_columns_names": [
+      [
+        "FIPS"
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.upload.976a384921d34ca1a6304a6c7bc256d7",
+      "datasetName": "Poverty by US State 2016",
+      "license": "unknown",
+      "approximateSize": "100393 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "This dataset contains poverty levels for all US states in 2016."
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": [
+            "csv"
+          ]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "FIPS",
+            "colType": "integer",
+            "role": [
+              "attribute"
+            ]
+          },
+          {
+            "colIndex": 1,
+            "colName": "State",
+            "colType": "categorical",
+            "role": [
+              "attribute"
+            ]
+          },
+          {
+            "colIndex": 2,
+            "colName": "Area",
+            "colType": "string",
+            "role": [
+              "attribute"
+            ]
+          },
+          {
+            "colIndex": 3,
+            "colName": "RUCCode",
+            "colType": "integer",
+            "role": [
+              "attribute"
+            ]
+          },
+          {
+            "colIndex": 4,
+            "colName": "POVALL_2016",
+            "colType": "integer",
+            "role": [
+              "attribute"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    [
+      "FIPS",
+      "State",
+      "Area",
+      "RUCCode",
+      "POVALL_2016"
+    ],
+    [
+      "35047",
+      "NM",
+      "San Miguel County",
+      "6",
+      "6856"
+    ],
+    [
+      "37075",
+      "NC",
+      "Graham County",
+      "9",
+      "1675"
+    ],
+    [
+      "21137",
+      "KY",
+      "Lincoln County",
+      "7",
+      "5499"
+    ],
+    [
+      "21061",
+      "KY",
+      "Edmonson County",
+      "3",
+      "2668"
+    ],
+    [
+      "29151",
+      "MO",
+      "Osage County",
+      "3",
+      "1139"
+    ],
+    [
+      "13167",
+      "GA",
+      "Johnson County",
+      "9",
+      "2277"
+    ],
+    [
+      "42007",
+      "PA",
+      "Beaver County",
+      "1",
+      "15998"
+    ],
+    [
+      "17133",
+      "IL",
+      "Monroe County",
+      "1",
+      "1599"
+    ],
+    [
+      "28073",
+      "MS",
+      "Lamar County",
+      "3",
+      "7614"
+    ],
+    [
+      "55078",
+      "WI",
+      "Menominee County",
+      "8",
+      "1214"
+    ],
+    [
+      "6035",
+      "CA",
+      "Lassen County",
+      "6",
+      "4085"
+    ],
+    [
+      "22061",
+      "LA",
+      "Lincoln Parish",
+      "4",
+      "12959"
+    ],
+    [
+      "22029",
+      "LA",
+      "Concordia Parish",
+      "7",
+      "5239"
+    ],
+    [
+      "16085",
+      "ID",
+      "Valley County",
+      "8",
+      "998"
+    ],
+    [
+      "33007",
+      "NH",
+      "Coos County",
+      "7",
+      "4072"
+    ],
+    [
+      "15001",
+      "HI",
+      "Hawaii County",
+      "5",
+      "29962"
+    ],
+    [
+      "1009",
+      "AL",
+      "Blount County",
+      "1",
+      "8033"
+    ],
+    [
+      "19143",
+      "IA",
+      "Osceola County",
+      "7",
+      "625"
+    ],
+    [
+      "51770",
+      "VA",
+      "Roanoke city",
+      "2",
+      "21886"
+    ],
+    [
+      "48435",
+      "TX",
+      "Sutton County",
+      "7",
+      "542"
+    ]
+  ]
+}
+

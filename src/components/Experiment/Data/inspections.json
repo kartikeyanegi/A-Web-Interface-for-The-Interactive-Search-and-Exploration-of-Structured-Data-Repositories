@@ -1,0 +1,503 @@
+{
+  "id": "datamart.socrata.data-cityofnewyork-us.rn6p-xvjd",
+  "score": 10,
+  "metadata": {
+    "name": "Inspections",
+    "source": "data.cityofnewyork.us",
+    "description": "Tracks location, date and outcome of inspections of permitted, privately operated Municipal Solid...",
+    "size": 2789731,
+    "nb_rows": 68041,
+    "nb_profiled_rows": 68041,
+    "columns": [
+      {
+        "name": "INSPECTION_NO",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "mean": 1065592671510.588,
+        "stddev": 34861589606.08066,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 8812,
+              "bin_start": 1010209203814,
+              "bin_end": 1021500192705.9
+            },
+            {
+              "count": 7941,
+              "bin_start": 1021500192705.9,
+              "bin_end": 1032791181597.8
+            },
+            {
+              "count": 7404,
+              "bin_start": 1032791181597.8,
+              "bin_end": 1044082170489.7
+            },
+            {
+              "count": 5781,
+              "bin_start": 1044082170489.7,
+              "bin_end": 1055373159381.6
+            },
+            {
+              "count": 5569,
+              "bin_start": 1055373159381.6,
+              "bin_end": 1066664148273.5
+            },
+            {
+              "count": 4837,
+              "bin_start": 1066664148273.5,
+              "bin_end": 1077955137165.4
+            },
+            {
+              "count": 6173,
+              "bin_start": 1077955137165.4,
+              "bin_end": 1089246126057.3
+            },
+            {
+              "count": 5752,
+              "bin_start": 1089246126057.3,
+              "bin_end": 1100537114949.2
+            },
+            {
+              "count": 7334,
+              "bin_start": 1100537114949.2,
+              "bin_end": 1111828103841.1
+            },
+            {
+              "count": 8438,
+              "bin_start": 1111828103841.1,
+              "bin_end": 1123119092733
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 1010809061144,
+              "lte": 1042512100440
+            }
+          },
+          {
+            "range": {
+              "gte": 1090919074500,
+              "lte": 1122608202034
+            }
+          },
+          {
+            "range": {
+              "gte": 1050611095708,
+              "lte": 1082616094020
+            }
+          }
+        ]
+      },
+      {
+        "name": "INSPECTION_DATE",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/DateTime"],
+        "num_distinct_values": 64075,
+        "mean": 1405338481.2606516,
+        "stddev": 116102206.77380522,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1323079168,
+              "lte": 1446762624
+            }
+          },
+          {
+            "range": {
+              "gte": 1175079040,
+              "lte": 1311149952
+            }
+          },
+          {
+            "range": {
+              "gte": 1462351488,
+              "lte": 1581007744
+            }
+          }
+        ],
+        "temporal_resolution": "minute",
+        "plot": {
+          "type": "histogram_temporal",
+          "data": [
+            {
+              "count": 13,
+              "date_start": "2000-07-03T15:39:44",
+              "date_end": "2002-07-22T05:16:48"
+            },
+            {
+              "count": 3,
+              "date_start": "2002-07-22T05:16:48",
+              "date_end": "2004-08-08T18:52:48"
+            },
+            {
+              "count": 16,
+              "date_start": "2004-08-08T18:52:48",
+              "date_end": "2006-08-27T08:29:52"
+            },
+            {
+              "count": 5874,
+              "date_start": "2006-08-27T08:29:52",
+              "date_end": "2008-09-13T22:06:56"
+            },
+            {
+              "count": 6864,
+              "date_start": "2008-09-13T22:06:56",
+              "date_end": "2010-10-02T11:44:00"
+            },
+            {
+              "count": 9429,
+              "date_start": "2010-10-02T11:44:00",
+              "date_end": "2012-10-20T01:21:04"
+            },
+            {
+              "count": 12147,
+              "date_start": "2012-10-20T01:21:04",
+              "date_end": "2014-11-07T14:58:08"
+            },
+            {
+              "count": 11295,
+              "date_start": "2014-11-07T14:58:08",
+              "date_end": "2016-11-25T04:35:12"
+            },
+            {
+              "count": 13736,
+              "date_start": "2016-11-25T04:35:12",
+              "date_end": "2018-12-13T18:12:16"
+            },
+            {
+              "count": 8664,
+              "date_start": "2018-12-13T18:12:16",
+              "date_end": "2020-12-31T07:49:20"
+            }
+          ]
+        }
+      },
+      {
+        "name": "VIOLATIONS",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": ["http://schema.org/Boolean"],
+        "unclean_values_ratio": 0,
+        "mean": 0.0043944092532443675,
+        "stddev": 0.06614452676193955,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 67742,
+              "bin_start": 0,
+              "bin_end": 0.1
+            },
+            {
+              "count": 0,
+              "bin_start": 0.1,
+              "bin_end": 0.2
+            },
+            {
+              "count": 0,
+              "bin_start": 0.2,
+              "bin_end": 0.30000000000000004
+            },
+            {
+              "count": 0,
+              "bin_start": 0.30000000000000004,
+              "bin_end": 0.4
+            },
+            {
+              "count": 0,
+              "bin_start": 0.4,
+              "bin_end": 0.5
+            },
+            {
+              "count": 0,
+              "bin_start": 0.5,
+              "bin_end": 0.6000000000000001
+            },
+            {
+              "count": 0,
+              "bin_start": 0.6000000000000001,
+              "bin_end": 0.7000000000000001
+            },
+            {
+              "count": 0,
+              "bin_start": 0.7000000000000001,
+              "bin_end": 0.8
+            },
+            {
+              "count": 0,
+              "bin_start": 0.8,
+              "bin_end": 0.9
+            },
+            {
+              "count": 299,
+              "bin_start": 0.9,
+              "bin_end": 1
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 1,
+              "lte": 1
+            }
+          },
+          {
+            "range": {
+              "gte": 0,
+              "lte": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "WARNINGS",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": ["http://schema.org/Boolean"],
+        "unclean_values_ratio": 0,
+        "mean": 0.030481621375347216,
+        "stddev": 0.17190838296517244,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 65967,
+              "bin_start": 0,
+              "bin_end": 0.1
+            },
+            {
+              "count": 0,
+              "bin_start": 0.1,
+              "bin_end": 0.2
+            },
+            {
+              "count": 0,
+              "bin_start": 0.2,
+              "bin_end": 0.30000000000000004
+            },
+            {
+              "count": 0,
+              "bin_start": 0.30000000000000004,
+              "bin_end": 0.4
+            },
+            {
+              "count": 0,
+              "bin_start": 0.4,
+              "bin_end": 0.5
+            },
+            {
+              "count": 0,
+              "bin_start": 0.5,
+              "bin_end": 0.6000000000000001
+            },
+            {
+              "count": 0,
+              "bin_start": 0.6000000000000001,
+              "bin_end": 0.7000000000000001
+            },
+            {
+              "count": 0,
+              "bin_start": 0.7000000000000001,
+              "bin_end": 0.8
+            },
+            {
+              "count": 0,
+              "bin_start": 0.8,
+              "bin_end": 0.9
+            },
+            {
+              "count": 2074,
+              "bin_start": 0.9,
+              "bin_end": 1
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 1,
+              "lte": 1
+            }
+          },
+          {
+            "range": {
+              "gte": 0,
+              "lte": 0
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "INSPECTION_NO,INSPECTION_DATE,VIOLATIONS,WARNINGS\n1032814113928,03/13/2014 09:55:00 AM,0,0\n1010219181129,12/26/2018 02:45:00 AM,0,0\n1012919082847,01/23/2019 02:10:00 AM,0,0\n1022908125140,02/29/2008 09:30:00 AM,0,0\n1041015135732,04/06/2015 10:45:00 AM,0,0\n1072911094824,07/28/2011 09:00:00 AM,0,0\n1101718170847,10/04/2018 04:45:00 PM,0,0\n1030211111653,03/01/2011 05:00:00 PM,0,0\n1070209102032,07/01/2009 09:00:00 AM,0,0\n1070519085743,07/04/2019 11:10:00 PM,0,0\n1070909114814,07/01/2009 05:10:00 PM,0,0\n1110508060111,11/05/2008 01:05:00 AM,0,0\n1112017104759,11/18/2017 10:40:00 AM,0,0\n1100614085639,09/09/2014 07:15:00 AM,0,0\n1021915070635,02/17/2015 01:05:00 AM,0,0\n1012512103004,01/23/2012 05:35:00 PM,0,0\n1062609101318,06/25/2009 07:00:00 AM,0,1\n1111519080624,11/13/2019 07:40:00 AM,0,0\n1122916071208,12/23/2016 12:30:00 PM,0,0\n1032511074650,03/24/2011 10:00:00 AM,0,0\n",
+    "materialize": {
+      "socrata_id": "rn6p-xvjd",
+      "socrata_domain": "data.cityofnewyork.us",
+      "socrata_updated": "2020-05-05T15:12:47.000Z",
+      "direct_url": "https://data.cityofnewyork.us/api/views/rn6p-xvjd/rows.csv?accessType=DOWNLOAD",
+      "identifier": "datamart.socrata",
+      "date": "2020-05-05T20:28:31.203540Z"
+    },
+    "date": "2020-05-05T23:57:23.930738Z",
+    "version": "v0.6-32-gb6d0758",
+    "id": "datamart.socrata.data-cityofnewyork-us.rn6p-xvjd"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [[0]],
+    "right_columns": [[1]],
+    "left_columns_names": [["datetime"]],
+    "right_columns_names": [["INSPECTION_DATE"]],
+    "scores": [{ "joinability": 0.94, "correlation": 0.51 }],
+    "new_columns": [
+      [
+        {
+          "types": {},
+          "orig_name": "INSPECTION_NO",
+          "agg_function": "mean",
+          "name": "MEAN(INSPECTION_NO)",
+          "score": 0.46
+        },
+        {
+          "types": {},
+          "orig_name": "INSPECTION_NO",
+          "agg_function": "sum",
+          "name": "SUM(INSPECTION_NO)",
+          "score": 0.54
+        },
+        {
+          "types": {},
+          "orig_name": "INSPECTION_NO",
+          "agg_function": "max",
+          "name": "MAX(INSPECTION_NO)",
+          "score": 0.46
+        },
+        {
+          "types": {},
+          "orig_name": "INSPECTION_NO",
+          "agg_function": "min",
+          "name": "MIN(INSPECTION_NO)",
+          "score": 0.46
+        },
+        {
+          "types": {},
+          "orig_name": "VIOLATIONS",
+          "agg_function": "mean",
+          "name": "MEAN(VIOLATIONS)",
+          "score": 0.04
+        },
+        {
+          "types": {},
+          "orig_name": "VIOLATIONS",
+          "agg_function": "sum",
+          "name": "SUM(VIOLATIONS)",
+          "score": 0.04
+        },
+        {
+          "types": {},
+          "orig_name": "VIOLATIONS",
+          "agg_function": "max",
+          "name": "MAX(VIOLATIONS)",
+          "score": 0.04
+        },
+        {
+          "types": {},
+          "orig_name": "WARNINGS",
+          "agg_function": "mean",
+          "name": "MEAN(WARNINGS)",
+          "score": 0.19
+        },
+        {
+          "types": {},
+          "orig_name": "WARNINGS",
+          "agg_function": "sum",
+          "name": "SUM(WARNINGS)",
+          "score": 0.2
+        },
+        {
+          "types": {},
+          "orig_name": "WARNINGS",
+          "agg_function": "max",
+          "name": "MAX(WARNINGS)",
+          "score": 0.22
+        }
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.socrata.data-cityofnewyork-us.rn6p-xvjd",
+      "datasetName": "Inspections",
+      "license": "unknown",
+      "approximateSize": "2789731 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "Tracks location, date and outcome of inspections of permitted, privately operated Municipal Solid..."
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": ["csv"]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "INSPECTION_NO",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 1,
+            "colName": "INSPECTION_DATE",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 2,
+            "colName": "VIOLATIONS",
+            "colType": "boolean",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 3,
+            "colName": "WARNINGS",
+            "colType": "boolean",
+            "role": ["attribute"]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    ["INSPECTION_NO", "INSPECTION_DATE", "VIOLATIONS", "WARNINGS"],
+    ["1032814113928", "03/13/2014 09:55:00 AM", "0", "0"],
+    ["1010219181129", "12/26/2018 02:45:00 AM", "0", "0"],
+    ["1012919082847", "01/23/2019 02:10:00 AM", "0", "0"],
+    ["1022908125140", "02/29/2008 09:30:00 AM", "0", "0"],
+    ["1041015135732", "04/06/2015 10:45:00 AM", "0", "0"],
+    ["1072911094824", "07/28/2011 09:00:00 AM", "0", "0"],
+    ["1101718170847", "10/04/2018 04:45:00 PM", "0", "0"],
+    ["1030211111653", "03/01/2011 05:00:00 PM", "0", "0"],
+    ["1070209102032", "07/01/2009 09:00:00 AM", "0", "0"],
+    ["1070519085743", "07/04/2019 11:10:00 PM", "0", "0"],
+    ["1070909114814", "07/01/2009 05:10:00 PM", "0", "0"],
+    ["1110508060111", "11/05/2008 01:05:00 AM", "0", "0"],
+    ["1112017104759", "11/18/2017 10:40:00 AM", "0", "0"],
+    ["1100614085639", "09/09/2014 07:15:00 AM", "0", "0"],
+    ["1021915070635", "02/17/2015 01:05:00 AM", "0", "0"],
+    ["1012512103004", "01/23/2012 05:35:00 PM", "0", "0"],
+    ["1062609101318", "06/25/2009 07:00:00 AM", "0", "1"],
+    ["1111519080624", "11/13/2019 07:40:00 AM", "0", "0"],
+    ["1122916071208", "12/23/2016 12:30:00 PM", "0", "0"],
+    ["1032511074650", "03/24/2011 10:00:00 AM", "0", "0"]
+  ]
+}

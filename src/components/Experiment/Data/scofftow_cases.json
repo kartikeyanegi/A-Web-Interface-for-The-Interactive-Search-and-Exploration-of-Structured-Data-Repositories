@@ -1,0 +1,1925 @@
+{
+  "id": "datamart.socrata.data-cityofnewyork-us.qmh3-uvgq",
+  "score": 10,
+  "metadata": {
+    "name": "DOF ScoffTow Case Information",
+    "source": "data.cityofnewyork.us",
+    "description": "ScoffTow Case Information\n</p>\nWhy is this data collected?\n</br>- To keep track of vehicles that ...",
+    "size": 76525189,
+    "nb_rows": 769022,
+    "nb_profiled_rows": 502904,
+    "columns": [
+      {
+        "name": "Case Number",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "mean": 1639088511.7679696,
+        "stddev": 198900359.04103047,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 2809,
+              "bin_start": 1203060594,
+              "bin_end": 1283071536.3
+            },
+            {
+              "count": 35516,
+              "bin_start": 1283071536.3,
+              "bin_end": 1363082478.6
+            },
+            {
+              "count": 76471,
+              "bin_start": 1363082478.6,
+              "bin_end": 1443093420.9
+            },
+            {
+              "count": 74761,
+              "bin_start": 1443093420.9,
+              "bin_end": 1523104363.2
+            },
+            {
+              "count": 16470,
+              "bin_start": 1523104363.2,
+              "bin_end": 1603115305.5
+            },
+            {
+              "count": 59923,
+              "bin_start": 1603115305.5,
+              "bin_end": 1683126247.8
+            },
+            {
+              "count": 71917,
+              "bin_start": 1683126247.8,
+              "bin_end": 1763137190.1
+            },
+            {
+              "count": 77647,
+              "bin_start": 1763137190.1,
+              "bin_end": 1843148132.4
+            },
+            {
+              "count": 67000,
+              "bin_start": 1843148132.4,
+              "bin_end": 1923159074.6999998
+            },
+            {
+              "count": 20390,
+              "bin_start": 1923159074.6999998,
+              "bin_end": 2003170017
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 1802020024,
+              "lte": 2002110559
+            }
+          },
+          {
+            "range": {
+              "gte": 1307160174,
+              "lte": 1511050002
+            }
+          },
+          {
+            "range": {
+              "gte": 1602040397,
+              "lte": 1711090204
+            }
+          }
+        ]
+      },
+      {
+        "name": "Case Status",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/Enumeration"],
+        "num_distinct_values": 22,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "Export History",
+              "count": 2
+            },
+            {
+              "bin": "Paid in the Field",
+              "count": 2
+            },
+            {
+              "bin": "Salvage/Total Loss/Export",
+              "count": 1
+            },
+            {
+              "bin": "Stolen Vehicle",
+              "count": 6
+            },
+            {
+              "bin": "Towed in Error",
+              "count": 3
+            }
+          ]
+        }
+      },
+      {
+        "name": "License plate number",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [],
+        "missing_values_ratio": 1.9884510761497225e-6,
+        "num_distinct_values": 372661
+      },
+      {
+        "name": "License plate issuing state",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/Enumeration"],
+        "num_distinct_values": 54,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "AK",
+              "count": 3
+            },
+            {
+              "bin": "BC",
+              "count": 1
+            },
+            {
+              "bin": "ID",
+              "count": 19
+            },
+            {
+              "bin": "ND",
+              "count": 20
+            },
+            {
+              "bin": "WY",
+              "count": 6
+            }
+          ]
+        }
+      },
+      {
+        "name": "License plate type",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/Enumeration"],
+        "num_distinct_values": 47,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "AYG",
+              "count": 1
+            },
+            {
+              "bin": "HOU",
+              "count": 1
+            },
+            {
+              "bin": "LMC",
+              "count": 1
+            },
+            {
+              "bin": "LUA",
+              "count": 1
+            },
+            {
+              "bin": "RGC",
+              "count": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "Judgment Amount",
+        "structural_type": "http://schema.org/Float",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "missing_values_ratio": 0.001197047547842133,
+        "mean": 597.5828257083167,
+        "stddev": 1817.3531926266642,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 502205,
+              "bin_start": 0,
+              "bin_end": 32117.696000000004
+            },
+            {
+              "count": 53,
+              "bin_start": 32117.696000000004,
+              "bin_end": 64235.39200000001
+            },
+            {
+              "count": 19,
+              "bin_start": 64235.39200000001,
+              "bin_end": 96353.08800000002
+            },
+            {
+              "count": 4,
+              "bin_start": 96353.08800000002,
+              "bin_end": 128470.78400000001
+            },
+            {
+              "count": 3,
+              "bin_start": 128470.78400000001,
+              "bin_end": 160588.48
+            },
+            {
+              "count": 5,
+              "bin_start": 160588.48,
+              "bin_end": 192706.17600000004
+            },
+            {
+              "count": 2,
+              "bin_start": 192706.17600000004,
+              "bin_end": 224823.87200000003
+            },
+            {
+              "count": 1,
+              "bin_start": 224823.87200000003,
+              "bin_end": 256941.56800000003
+            },
+            {
+              "count": 5,
+              "bin_start": 256941.56800000003,
+              "bin_end": 289059.264
+            },
+            {
+              "count": 5,
+              "bin_start": 289059.264,
+              "bin_end": 321176.96
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 351.88,
+              "lte": 1193.86
+            }
+          },
+          {
+            "range": {
+              "gte": 154409.65,
+              "lte": 321176.96
+            }
+          },
+          {
+            "range": {
+              "gte": 25407.81,
+              "lte": 89669.89
+            }
+          }
+        ]
+      },
+      {
+        "name": "Boot Date",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Enumeration",
+          "http://schema.org/DateTime"
+        ],
+        "num_distinct_values": 1731,
+        "mean": 1476977653.5513737,
+        "stddev": 61733151.466297045,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1372723200,
+              "lte": 1437350400
+            }
+          },
+          {
+            "range": {
+              "gte": 1516060800,
+              "lte": 1581379200
+            }
+          },
+          {
+            "range": {
+              "gte": 1443657600,
+              "lte": 1506902400
+            }
+          }
+        ],
+        "temporal_resolution": "day",
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "02/15/2013",
+              "count": 1
+            },
+            {
+              "bin": "03/06/2012",
+              "count": 1
+            },
+            {
+              "bin": "04/25/2012",
+              "count": 1
+            },
+            {
+              "bin": "06/25/2012",
+              "count": 1
+            },
+            {
+              "bin": "11/16/2012",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "Tow (Y/N)",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Boolean",
+          "http://schema.org/Enumeration"
+        ],
+        "unclean_values_ratio": 0,
+        "num_distinct_values": 2,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "false",
+              "count": 409337
+            },
+            {
+              "bin": "true",
+              "count": 93567
+            }
+          ]
+        }
+      },
+      {
+        "name": "Tow Date",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Enumeration",
+          "http://schema.org/DateTime"
+        ],
+        "missing_values_ratio": 0.8139465981578989,
+        "num_distinct_values": 2352,
+        "mean": 1481596603.0074706,
+        "stddev": 61404782.0838378,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1517443200,
+              "lte": 1581465600
+            }
+          },
+          {
+            "range": {
+              "gte": 1374624000,
+              "lte": 1440028800
+            }
+          },
+          {
+            "range": {
+              "gte": 1446508800,
+              "lte": 1510617600
+            }
+          }
+        ],
+        "temporal_resolution": "day",
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "07/02/2012",
+              "count": 1
+            },
+            {
+              "bin": "07/06/2012",
+              "count": 1
+            },
+            {
+              "bin": "07/11/2012",
+              "count": 1
+            },
+            {
+              "bin": "07/13/2012",
+              "count": 1
+            },
+            {
+              "bin": "07/18/2012",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "Redeemed (Y/N)",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Boolean",
+          "http://schema.org/Enumeration"
+        ],
+        "unclean_values_ratio": 0,
+        "num_distinct_values": 2,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "false",
+              "count": 50774
+            },
+            {
+              "bin": "true",
+              "count": 452130
+            }
+          ]
+        }
+      },
+      {
+        "name": "Redemption Date",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Enumeration",
+          "http://schema.org/DateTime"
+        ],
+        "missing_values_ratio": 0.100961614940426,
+        "num_distinct_values": 2764,
+        "mean": 1476200856.8296728,
+        "stddev": 61680625.36905146,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1515628800,
+              "lte": 1581465600
+            }
+          },
+          {
+            "range": {
+              "gte": 1372809600,
+              "lte": 1436400000
+            }
+          },
+          {
+            "range": {
+              "gte": 1442880000,
+              "lte": 1505952000
+            }
+          }
+        ],
+        "temporal_resolution": "day",
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "04/25/2012",
+              "count": 1
+            },
+            {
+              "bin": "06/25/2012",
+              "count": 1
+            },
+            {
+              "bin": "06/30/2012",
+              "count": 1
+            },
+            {
+              "bin": "07/01/2012",
+              "count": 1
+            },
+            {
+              "bin": "07/15/2012",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "Total amount owed",
+        "structural_type": "http://schema.org/Float",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "missing_values_ratio": 0.001197047547842133,
+        "mean": 597.5828257083167,
+        "stddev": 1817.3531926266642,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 502205,
+              "bin_start": 0,
+              "bin_end": 32117.696000000004
+            },
+            {
+              "count": 53,
+              "bin_start": 32117.696000000004,
+              "bin_end": 64235.39200000001
+            },
+            {
+              "count": 19,
+              "bin_start": 64235.39200000001,
+              "bin_end": 96353.08800000002
+            },
+            {
+              "count": 4,
+              "bin_start": 96353.08800000002,
+              "bin_end": 128470.78400000001
+            },
+            {
+              "count": 3,
+              "bin_start": 128470.78400000001,
+              "bin_end": 160588.48
+            },
+            {
+              "count": 5,
+              "bin_start": 160588.48,
+              "bin_end": 192706.17600000004
+            },
+            {
+              "count": 2,
+              "bin_start": 192706.17600000004,
+              "bin_end": 224823.87200000003
+            },
+            {
+              "count": 1,
+              "bin_start": 224823.87200000003,
+              "bin_end": 256941.56800000003
+            },
+            {
+              "count": 5,
+              "bin_start": 256941.56800000003,
+              "bin_end": 289059.264
+            },
+            {
+              "count": 5,
+              "bin_start": 289059.264,
+              "bin_end": 321176.96
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 351.88,
+              "lte": 1193.86
+            }
+          },
+          {
+            "range": {
+              "gte": 154409.65,
+              "lte": 321176.96
+            }
+          },
+          {
+            "range": {
+              "gte": 25407.81,
+              "lte": 89669.89
+            }
+          }
+        ]
+      },
+      {
+        "name": "Total amount collected",
+        "structural_type": "http://schema.org/Float",
+        "semantic_types": [],
+        "unclean_values_ratio": 0,
+        "mean": 780.4135720137526,
+        "stddev": 535.8257106006214,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 502521,
+              "bin_start": -3176.92,
+              "bin_end": 6100.325999999999
+            },
+            {
+              "count": 343,
+              "bin_start": 6100.325999999999,
+              "bin_end": 15377.571999999998
+            },
+            {
+              "count": 27,
+              "bin_start": 15377.571999999998,
+              "bin_end": 24654.818
+            },
+            {
+              "count": 4,
+              "bin_start": 24654.818,
+              "bin_end": 33932.064
+            },
+            {
+              "count": 5,
+              "bin_start": 33932.064,
+              "bin_end": 43209.31
+            },
+            {
+              "count": 1,
+              "bin_start": 43209.31,
+              "bin_end": 52486.556
+            },
+            {
+              "count": 1,
+              "bin_start": 52486.556,
+              "bin_end": 61763.801999999996
+            },
+            {
+              "count": 1,
+              "bin_start": 61763.801999999996,
+              "bin_end": 71041.048
+            },
+            {
+              "count": 0,
+              "bin_start": 71041.048,
+              "bin_end": 80318.294
+            },
+            {
+              "count": 1,
+              "bin_start": 80318.294,
+              "bin_end": 89595.54
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 1098.05,
+              "lte": 2515.64
+            }
+          },
+          {
+            "range": {
+              "gte": 0,
+              "lte": 979.08
+            }
+          },
+          {
+            "range": {
+              "gte": 3731.56,
+              "lte": 11041.86
+            }
+          }
+        ]
+      },
+      {
+        "name": "Auctioned (Y/N)",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Boolean",
+          "http://schema.org/Enumeration"
+        ],
+        "unclean_values_ratio": 0,
+        "num_distinct_values": 2,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "false",
+              "count": 475431
+            },
+            {
+              "bin": "true",
+              "count": 27473
+            }
+          ]
+        }
+      },
+      {
+        "name": "Auction Date",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [
+          "http://schema.org/Enumeration",
+          "http://schema.org/DateTime"
+        ],
+        "missing_values_ratio": 0.9453712835849387,
+        "num_distinct_values": 1393,
+        "mean": 1481550102.6899137,
+        "stddev": 60656246.484177604,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1447286400,
+              "lte": 1510790400
+            }
+          },
+          {
+            "range": {
+              "gte": 1376265600,
+              "lte": 1441756800
+            }
+          },
+          {
+            "range": {
+              "gte": 1517875200,
+              "lte": 1580860800
+            }
+          }
+        ],
+        "temporal_resolution": "day",
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "01/14/2013",
+              "count": 1
+            },
+            {
+              "bin": "08/29/2012",
+              "count": 1
+            },
+            {
+              "bin": "10/23/2012",
+              "count": 1
+            },
+            {
+              "bin": "11/02/2012",
+              "count": 1
+            },
+            {
+              "bin": "12/18/2012",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "Auction Amount",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "unclean_values_ratio": 0.013290806992984745,
+        "mean": 42.77662001097623,
+        "stddev": 330.73422715394565,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 501719,
+              "bin_start": 0,
+              "bin_end": 3000
+            },
+            {
+              "count": 947,
+              "bin_start": 3000,
+              "bin_end": 6000
+            },
+            {
+              "count": 156,
+              "bin_start": 6000,
+              "bin_end": 9000
+            },
+            {
+              "count": 50,
+              "bin_start": 9000,
+              "bin_end": 12000
+            },
+            {
+              "count": 17,
+              "bin_start": 12000,
+              "bin_end": 15000
+            },
+            {
+              "count": 7,
+              "bin_start": 15000,
+              "bin_end": 18000
+            },
+            {
+              "count": 4,
+              "bin_start": 18000,
+              "bin_end": 21000
+            },
+            {
+              "count": 1,
+              "bin_start": 21000,
+              "bin_end": 24000
+            },
+            {
+              "count": 1,
+              "bin_start": 24000,
+              "bin_end": 27000
+            },
+            {
+              "count": 2,
+              "bin_start": 27000,
+              "bin_end": 30000
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 0,
+              "lte": 0
+            }
+          },
+          {
+            "range": {
+              "gte": 926,
+              "lte": 3485
+            }
+          },
+          {
+            "range": {
+              "gte": 4360,
+              "lte": 12500
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "Case Number,Case Status,License plate number,License plate issuing state,License plate type,Judgment Amount,Boot Date,Tow (Y/N),Tow Date,Redeemed (Y/N),Redemption Date,Total amount owed,Total amount collected,Auctioned (Y/N),Auction Date,Auction Amount\n1308120339,Redeemed,G73AJW,NJ,PAS,729.29,08/12/2013,true,08/15/2013,true,09/26/2013,729.29,946.23,false,,0\n1310280285,Other,FFZ7447,NY,PAS,413.14,10/28/2013,false,,false,,413.14,0,false,,0\n1404280093,Redeemed,GNS1114,NY,PAS,356.91,04/28/2014,false,,true,04/28/2014,356.91,608.76,false,,0\n1406020594,Redeemed,ERP7069,NY,PAS,361.84,06/02/2014,false,,true,06/03/2014,361.84,625.63,false,,0\n1407090542,Redeemed,FWG3083,OH,PAS,429.26,07/09/2014,false,,true,07/10/2014,429.26,696.42,false,,0\n1601050543,Redeemed,GYV4253,NY,PAS,382.72,01/05/2016,true,01/05/2016,true,01/29/2016,382.72,858.08,false,,0\n1607270232,Redeemed,T706035C,NY,OMT,597.36,07/27/2016,false,,true,07/27/2016,597.36,878.18,false,,0\n1702070539,Redeemed,GTJ8780,NY,PAS,867.88,02/07/2017,false,,true,02/07/2017,867.88,1150.27,false,,0\n1705160256,Redeemed,GJY3570,NY,PAS,351.2,05/16/2017,false,,true,05/16/2017,351.2,619.71,false,,0\n1710110190,Redeemed,T742209C,NY,OMT,972.06,10/11/2017,false,,true,10/12/2017,972.06,1271.61,false,,0\n1802260199,Redeemed,T617543C,NY,OMT,560.56,02/26/2018,true,02/28/2018,true,03/06/2018,560.56,1095.76,false,,0\n1803200318,Redeemed,HSZ3821,NY,PAS,377.95,03/20/2018,false,,true,03/20/2018,377.95,647.8,false,,0\n1805080084,Redeemed,HTW5823,NY,PAS,643.21,05/08/2018,true,05/08/2018,true,05/08/2018,643.21,1080.05,false,,0\n1807020264,Redeemed,HTZ3070,NY,PAS,602,07/02/2018,true,07/06/2018,true,07/10/2018,602,1132.45,false,,0\n1808230354,Redeemed,GZT4476,NY,PAS,503.26,08/23/2018,false,,true,08/23/2018,503.26,779.37,false,,0\n1809190477,Redeemed,HJV3498,NY,PAS,376.36,09/19/2018,false,,true,09/19/2018,376.36,646.13,false,,0\n1810100562,Redeemed,HYN7328,NY,PAS,627,10/10/2018,false,,true,10/12/2018,627,909.3,false,,0\n1904300391,Redeemed,T723234C,NY,OMT,351.35,04/30/2019,false,,true,05/01/2019,351.35,619.87,false,,0\n1910220328,Redeemed,GJN1068,NY,PAS,351.64,10/22/2019,false,,true,10/22/2019,351.64,620.17,false,,0\n1911140146,Redeemed,HSZ5420,NY,PAS,356.32,11/14/2019,false,,true,11/14/2019,356.32,600.94,false,,0\n",
+    "materialize": {
+      "socrata_id": "qmh3-uvgq",
+      "socrata_domain": "data.cityofnewyork.us",
+      "socrata_updated": "2020-05-04T16:08:28.000Z",
+      "direct_url": "https://data.cityofnewyork.us/api/views/qmh3-uvgq/rows.csv?accessType=DOWNLOAD",
+      "identifier": "datamart.socrata",
+      "date": "2020-05-05T20:28:31.586038Z"
+    },
+    "date": "2020-05-06T00:24:42.111593Z",
+    "version": "v0.6-32-gb6d0758",
+    "id": "datamart.socrata.data-cityofnewyork-us.qmh3-uvgq"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [[0], [0], [0], [0]],
+    "right_columns": [[6], [8], [10], [12]],
+    "left_columns_names": [
+      ["datetime"],
+      ["datetime"],
+      ["datetime"],
+      ["datetime"]
+    ],
+    "right_columns_names": [
+      ["Boot Date"],
+      ["Tow Date"],
+      ["Redemption Date"],
+      ["Auction Date"]
+    ],
+    "scores": [
+      { "joinability": 0.65, "correlation": 0.7 },
+      { "joinability": 0.87, "correlation": 0.53 },
+      { "joinability": 0.99, "correlation": 0.45 },
+      { "joinability": 0.66, "correlation": 0.34 }
+    ],
+    "new_columns": [
+      [
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Auction Amount)",
+          "score": 0.59
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "sum",
+          "name": "SUM(Auction Amount)",
+          "score": 0.5
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "max",
+          "name": "MAX(Auction Amount)",
+          "score": 0.53
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "mean",
+          "name": "MEAN(Case Number)",
+          "score": 0.68
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "sum",
+          "name": "SUM(Case Number)",
+          "score": 0.57
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "MAX",
+          "name": "MAX(Case Number)",
+          "score": 0.68
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "min",
+          "name": "MIN(Case Number)",
+          "score": 0.68
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Judgment Amount)",
+          "score": 0.65
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "sum",
+          "name": "SUM(Judgment Amount)",
+          "score": 0.56
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "max",
+          "name": "MAX(Judgment Amount)",
+          "score": 0.24
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "min",
+          "name": "MIN(Judgment Amount)",
+          "score": 0.62
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount collected)",
+          "score": 0.69
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "sum",
+          "name": "SUM(Total amount collected)",
+          "score": 0.58
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "max",
+          "name": "MAX(Total amount collected)",
+          "score": 0.31
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "min",
+          "name": "MIN(Total amount collected)",
+          "score": 0.01
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount owed)",
+          "score": 0.65
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "sum",
+          "name": "SUM(Total amount owed)",
+          "score": 0.56
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "max",
+          "name": "MAX(Total amount owed)",
+          "score": 0.24
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "min",
+          "name": "MIN(Total amount owed)",
+          "score": 0.62
+        }
+      ],
+      [
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Auction Amount)",
+          "score": 0.26
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "sum",
+          "name": "SUM(Auction Amount)",
+          "score": 0.53
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "max",
+          "name": "MAX(Auction Amount)",
+          "score": 0.42
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "min",
+          "name": "MIN(Auction Amount)",
+          "score": 0.11
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "mean",
+          "name": "MEAN(Case Number)",
+          "score": 0.48
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "sum",
+          "name": "SUM(Case Number)",
+          "score": 0.63
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "MAX",
+          "name": "MAX(Case Number)",
+          "score": 0.48
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "min",
+          "name": "MIN(Case Number)",
+          "score": 0.48
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Judgment Amount)",
+          "score": 0.4
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "sum",
+          "name": "SUM(Judgment Amount)",
+          "score": 0.52
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "max",
+          "name": "MAX(Judgment Amount)",
+          "score": 0.23
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "min",
+          "name": "MIN(Judgment Amount)",
+          "score": 0.14
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount collected)",
+          "score": 0.49
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "sum",
+          "name": "SUM(Total amount collected)",
+          "score": 0.62
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "max",
+          "name": "MAX(Total amount collected)",
+          "score": 0.25
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "min",
+          "name": "MIN(Total amount collected)",
+          "score": 0.3
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount owed)",
+          "score": 0.4
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "sum",
+          "name": "SUM(Total amount owed)",
+          "score": 0.52
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "max",
+          "name": "MAX(Total amount owed)",
+          "score": 0.23
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "min",
+          "name": "MIN(Total amount owed)",
+          "score": 0.14
+        }
+      ],
+      [
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Auction Amount)",
+          "score": 0.11
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "sum",
+          "name": "SUM(Auction Amount)",
+          "score": 0.11
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "max",
+          "name": "MAX(Auction Amount)",
+          "score": 0.21
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "mean",
+          "name": "MEAN(Case Number)",
+          "score": 0.3
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "sum",
+          "name": "SUM(Case Number)",
+          "score": 0.66
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "MAX",
+          "name": "MAX(Case Number)",
+          "score": 0.3
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "min",
+          "name": "MIN(Case Number)",
+          "score": 0.24
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Judgment Amount)",
+          "score": 0.14
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "sum",
+          "name": "SUM(Judgment Amount)",
+          "score": 0.64
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "max",
+          "name": "MAX(Judgment Amount)",
+          "score": 0.16
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "min",
+          "name": "MIN(Judgment Amount)",
+          "score": 0.12
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount collected)",
+          "score": 0.07
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "sum",
+          "name": "SUM(Total amount collected)",
+          "score": 0.66
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "max",
+          "name": "MAX(Total amount collected)",
+          "score": 0.17
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "min",
+          "name": "MIN(Total amount collected)",
+          "score": 0.56
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount owed)",
+          "score": 0.14
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "sum",
+          "name": "SUM(Total amount owed)",
+          "score": 0.64
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "max",
+          "name": "MAX(Total amount owed)",
+          "score": 0.16
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "min",
+          "name": "MIN(Total amount owed)",
+          "score": 0.12
+        }
+      ],
+      [
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Auction Amount)",
+          "score": 0.11
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "sum",
+          "name": "SUM(Auction Amount)",
+          "score": 0.33
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "max",
+          "name": "MAX(Auction Amount)",
+          "score": 0.23
+        },
+        {
+          "types": {},
+          "orig_name": "Auction Amount",
+          "agg_function": "min",
+          "name": "MIN(Auction Amount)",
+          "score": 0.03
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "mean",
+          "name": "MEAN(Case Number)",
+          "score": 0.4
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "sum",
+          "name": "SUM(Case Number)",
+          "score": 0.34
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "MAX",
+          "name": "MAX(Case Number)",
+          "score": 0.4
+        },
+        {
+          "types": {},
+          "orig_name": "Case Number",
+          "agg_function": "min",
+          "name": "MIN(Case Number)",
+          "score": 0.4
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "mean",
+          "name": "MEAN(Judgment Amount)",
+          "score": 0.25
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "sum",
+          "name": "SUM(Judgment Amount)",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "max",
+          "name": "MAX(Judgment Amount)",
+          "score": 0.17
+        },
+        {
+          "types": {},
+          "orig_name": "Judgment Amount",
+          "agg_function": "min",
+          "name": "MIN(Judgment Amount)",
+          "score": 0.11
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount collected)",
+          "score": 0.29
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "sum",
+          "name": "SUM(Total amount collected)",
+          "score": 0.35
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "max",
+          "name": "MAX(Total amount collected)",
+          "score": 0.17
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount collected",
+          "agg_function": "min",
+          "name": "MIN(Total amount collected)",
+          "score": 0.05
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "mean",
+          "name": "MEAN(Total amount owed)",
+          "score": 0.25
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "sum",
+          "name": "SUM(Total amount owed)",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "max",
+          "name": "MAX(Total amount owed)",
+          "score": 0.17
+        },
+        {
+          "types": {},
+          "orig_name": "Total amount owed",
+          "agg_function": "min",
+          "name": "MIN(Total amount owed)",
+          "score": 0.11
+        }
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.socrata.data-cityofnewyork-us.qmh3-uvgq",
+      "datasetName": "DOF ScoffTow Case Information",
+      "license": "unknown",
+      "approximateSize": "76525189 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "ScoffTow Case Information\n</p>\nWhy is this data collected?\n</br>- To keep track of vehicles that ..."
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": ["csv"]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "Case Number",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 1,
+            "colName": "Case Status",
+            "colType": "categorical",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 2,
+            "colName": "License plate number",
+            "colType": "string",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 3,
+            "colName": "License plate issuing state",
+            "colType": "categorical",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 4,
+            "colName": "License plate type",
+            "colType": "categorical",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 5,
+            "colName": "Judgment Amount",
+            "colType": "real",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 6,
+            "colName": "Boot Date",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 7,
+            "colName": "Tow (Y/N)",
+            "colType": "boolean",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 8,
+            "colName": "Tow Date",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 9,
+            "colName": "Redeemed (Y/N)",
+            "colType": "boolean",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 10,
+            "colName": "Redemption Date",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 11,
+            "colName": "Total amount owed",
+            "colType": "real",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 12,
+            "colName": "Total amount collected",
+            "colType": "real",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 13,
+            "colName": "Auctioned (Y/N)",
+            "colType": "boolean",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 14,
+            "colName": "Auction Date",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 15,
+            "colName": "Auction Amount",
+            "colType": "integer",
+            "role": ["attribute"]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    [
+      "Case Number",
+      "Case Status",
+      "License plate number",
+      "License plate issuing state",
+      "License plate type",
+      "Judgment Amount",
+      "Boot Date",
+      "Tow (Y/N)",
+      "Tow Date",
+      "Redeemed (Y/N)",
+      "Redemption Date",
+      "Total amount owed",
+      "Total amount collected",
+      "Auctioned (Y/N)",
+      "Auction Date",
+      "Auction Amount"
+    ],
+    [
+      "1308120339",
+      "Redeemed",
+      "G73AJW",
+      "NJ",
+      "PAS",
+      "729.29",
+      "08/12/2013",
+      "true",
+      "08/15/2013",
+      "true",
+      "09/26/2013",
+      "729.29",
+      "946.23",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1310280285",
+      "Other",
+      "FFZ7447",
+      "NY",
+      "PAS",
+      "413.14",
+      "10/28/2013",
+      "false",
+      "",
+      "false",
+      "",
+      "413.14",
+      "0",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1404280093",
+      "Redeemed",
+      "GNS1114",
+      "NY",
+      "PAS",
+      "356.91",
+      "04/28/2014",
+      "false",
+      "",
+      "true",
+      "04/28/2014",
+      "356.91",
+      "608.76",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1406020594",
+      "Redeemed",
+      "ERP7069",
+      "NY",
+      "PAS",
+      "361.84",
+      "06/02/2014",
+      "false",
+      "",
+      "true",
+      "06/03/2014",
+      "361.84",
+      "625.63",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1407090542",
+      "Redeemed",
+      "FWG3083",
+      "OH",
+      "PAS",
+      "429.26",
+      "07/09/2014",
+      "false",
+      "",
+      "true",
+      "07/10/2014",
+      "429.26",
+      "696.42",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1601050543",
+      "Redeemed",
+      "GYV4253",
+      "NY",
+      "PAS",
+      "382.72",
+      "01/05/2016",
+      "true",
+      "01/05/2016",
+      "true",
+      "01/29/2016",
+      "382.72",
+      "858.08",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1607270232",
+      "Redeemed",
+      "T706035C",
+      "NY",
+      "OMT",
+      "597.36",
+      "07/27/2016",
+      "false",
+      "",
+      "true",
+      "07/27/2016",
+      "597.36",
+      "878.18",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1702070539",
+      "Redeemed",
+      "GTJ8780",
+      "NY",
+      "PAS",
+      "867.88",
+      "02/07/2017",
+      "false",
+      "",
+      "true",
+      "02/07/2017",
+      "867.88",
+      "1150.27",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1705160256",
+      "Redeemed",
+      "GJY3570",
+      "NY",
+      "PAS",
+      "351.2",
+      "05/16/2017",
+      "false",
+      "",
+      "true",
+      "05/16/2017",
+      "351.2",
+      "619.71",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1710110190",
+      "Redeemed",
+      "T742209C",
+      "NY",
+      "OMT",
+      "972.06",
+      "10/11/2017",
+      "false",
+      "",
+      "true",
+      "10/12/2017",
+      "972.06",
+      "1271.61",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1802260199",
+      "Redeemed",
+      "T617543C",
+      "NY",
+      "OMT",
+      "560.56",
+      "02/26/2018",
+      "true",
+      "02/28/2018",
+      "true",
+      "03/06/2018",
+      "560.56",
+      "1095.76",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1803200318",
+      "Redeemed",
+      "HSZ3821",
+      "NY",
+      "PAS",
+      "377.95",
+      "03/20/2018",
+      "false",
+      "",
+      "true",
+      "03/20/2018",
+      "377.95",
+      "647.8",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1805080084",
+      "Redeemed",
+      "HTW5823",
+      "NY",
+      "PAS",
+      "643.21",
+      "05/08/2018",
+      "true",
+      "05/08/2018",
+      "true",
+      "05/08/2018",
+      "643.21",
+      "1080.05",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1807020264",
+      "Redeemed",
+      "HTZ3070",
+      "NY",
+      "PAS",
+      "602",
+      "07/02/2018",
+      "true",
+      "07/06/2018",
+      "true",
+      "07/10/2018",
+      "602",
+      "1132.45",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1808230354",
+      "Redeemed",
+      "GZT4476",
+      "NY",
+      "PAS",
+      "503.26",
+      "08/23/2018",
+      "false",
+      "",
+      "true",
+      "08/23/2018",
+      "503.26",
+      "779.37",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1809190477",
+      "Redeemed",
+      "HJV3498",
+      "NY",
+      "PAS",
+      "376.36",
+      "09/19/2018",
+      "false",
+      "",
+      "true",
+      "09/19/2018",
+      "376.36",
+      "646.13",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1810100562",
+      "Redeemed",
+      "HYN7328",
+      "NY",
+      "PAS",
+      "627",
+      "10/10/2018",
+      "false",
+      "",
+      "true",
+      "10/12/2018",
+      "627",
+      "909.3",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1904300391",
+      "Redeemed",
+      "T723234C",
+      "NY",
+      "OMT",
+      "351.35",
+      "04/30/2019",
+      "false",
+      "",
+      "true",
+      "05/01/2019",
+      "351.35",
+      "619.87",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1910220328",
+      "Redeemed",
+      "GJN1068",
+      "NY",
+      "PAS",
+      "351.64",
+      "10/22/2019",
+      "false",
+      "",
+      "true",
+      "10/22/2019",
+      "351.64",
+      "620.17",
+      "false",
+      "",
+      "0"
+    ],
+    [
+      "1911140146",
+      "Redeemed",
+      "HSZ5420",
+      "NY",
+      "PAS",
+      "356.32",
+      "11/14/2019",
+      "false",
+      "",
+      "true",
+      "11/14/2019",
+      "356.32",
+      "600.94",
+      "false",
+      "",
+      "0"
+    ]
+  ]
+}

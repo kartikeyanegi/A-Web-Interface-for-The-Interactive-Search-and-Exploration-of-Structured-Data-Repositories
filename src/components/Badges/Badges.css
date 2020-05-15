@@ -1,0 +1,31 @@
+.badge-group > * {
+  display: inline-flex;
+  margin-right: 0.25rem;
+}
+
+.badge-group > *:last-child {
+  margin-right: 0px;
+}
+
+.badge {
+  font-weight: normal;
+}
+
+.badge-spatial, .badge-temporal {
+  font-size: .7rem;
+  line-height: 12px;
+}
+
+.badge-column, .badge-numerical, .badge-textual {
+  background-color: #f0f0f0;
+  font-size: .7rem;
+  line-height: 12px;
+}
+
+.badge-numerical svg {
+  color: #1ab082;
+}
+
+.badge-textual svg {
+  color: #4d96b2;
+}

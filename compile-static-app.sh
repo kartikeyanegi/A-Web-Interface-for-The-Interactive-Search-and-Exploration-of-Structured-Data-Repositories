@@ -1,0 +1,9 @@
+npm run build
+mkdir -p build/vehicle-collisions/search-results/
+mkdir -p build/vehicle-collisions/data/
+mkdir -p build/poverty/data/
+mkdir -p build/poverty/search-results/
+cp build/index.html build/vehicle-collisions/search-results/
+cp build/index.html build/vehicle-collisions/data/
+cp build/index.html build/poverty/data/
+cp build/index.html build/poverty/search-results/

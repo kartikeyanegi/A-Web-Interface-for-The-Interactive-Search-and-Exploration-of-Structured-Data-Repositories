@@ -1,0 +1,350 @@
+{
+  "id": "datamart.upload.a8241c91db1e4d75a4e4dd37cce12cd1",
+  "score": 9.988756,
+  "metadata": {
+    "name": "Zillow Median Listing Prices 2017",
+    "description": "",
+    "source": "upload",
+    "date": "2020-04-30T00:27:43.805386Z",
+    "size": 57269,
+    "nb_rows": 2289,
+    "nb_profiled_rows": 2289,
+    "columns": [
+      {
+        "name": "regionname",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": [],
+        "num_distinct_values": 1438
+      },
+      {
+        "name": "state",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/Enumeration"],
+        "num_distinct_values": 52,
+        "plot": {
+          "type": "histogram_categorical",
+          "data": [
+            {
+              "bin": "AK",
+              "count": 7
+            },
+            {
+              "bin": "DC",
+              "count": 1
+            },
+            {
+              "bin": "DE",
+              "count": 3
+            },
+            {
+              "bin": "HI",
+              "count": 4
+            },
+            {
+              "bin": "RI",
+              "count": 5
+            }
+          ]
+        }
+      },
+      {
+        "name": "median_price",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 208007.60921799912,
+        "stddev": 146243.47558178185,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 2011,
+              "bin_start": 49200,
+              "bin_end": 313780
+            },
+            {
+              "count": 241,
+              "bin_start": 313780,
+              "bin_end": 578360
+            },
+            {
+              "count": 24,
+              "bin_start": 578360,
+              "bin_end": 842940
+            },
+            {
+              "count": 4,
+              "bin_start": 842940,
+              "bin_end": 1107520
+            },
+            {
+              "count": 5,
+              "bin_start": 1107520,
+              "bin_end": 1372100
+            },
+            {
+              "count": 1,
+              "bin_start": 1372100,
+              "bin_end": 1636680
+            },
+            {
+              "count": 0,
+              "bin_start": 1636680,
+              "bin_end": 1901260
+            },
+            {
+              "count": 1,
+              "bin_start": 1901260,
+              "bin_end": 2165840
+            },
+            {
+              "count": 0,
+              "bin_start": 2165840,
+              "bin_end": 2430420
+            },
+            {
+              "count": 2,
+              "bin_start": 2430420,
+              "bin_end": 2695000
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 265000,
+              "lte": 589700
+            }
+          },
+          {
+            "range": {
+              "gte": 85000,
+              "lte": 244000
+            }
+          },
+          {
+            "range": {
+              "gte": 995000,
+              "lte": 2695000
+            }
+          }
+        ]
+      },
+      {
+        "name": "FIPS",
+        "structural_type": "http://schema.org/Integer",
+        "semantic_types": [],
+        "mean": 31125.16994320664,
+        "stddev": 16046.78491052231,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 224,
+              "bin_start": 1001,
+              "bin_end": 8115.4
+            },
+            {
+              "count": 195,
+              "bin_start": 8115.4,
+              "bin_end": 15229.8
+            },
+            {
+              "count": 414,
+              "bin_start": 15229.8,
+              "bin_end": 22344.199999999997
+            },
+            {
+              "count": 319,
+              "bin_start": 22344.199999999997,
+              "bin_end": 29458.6
+            },
+            {
+              "count": 179,
+              "bin_start": 29458.6,
+              "bin_end": 36573
+            },
+            {
+              "count": 321,
+              "bin_start": 36573,
+              "bin_end": 43687.399999999994
+            },
+            {
+              "count": 325,
+              "bin_start": 43687.399999999994,
+              "bin_end": 50801.799999999996
+            },
+            {
+              "count": 286,
+              "bin_start": 50801.799999999996,
+              "bin_end": 57916.2
+            },
+            {
+              "count": 0,
+              "bin_start": 57916.2,
+              "bin_end": 65030.6
+            },
+            {
+              "count": 26,
+              "bin_start": 65030.6,
+              "bin_end": 72145
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 25025,
+              "lte": 40143
+            }
+          },
+          {
+            "range": {
+              "gte": 1111,
+              "lte": 22051
+            }
+          },
+          {
+            "range": {
+              "gte": 42075,
+              "lte": 56025
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "regionname,state,median_price,FIPS\nFayette,TN,310000,47047\nSan Miguel,NM,199000,35047\nChattooga,GA,89900,13055\nWashoe,NV,399000,32031\nAssumption,LA,160000,22007\nCherokee,KS,68950,20021\nPacific,WA,209450,53049\nDodge,MN,208250,27039\nBreckinridge,KY,149000,21027\nDekalb,TN,248914,47041\nCamden,NC,265900,37029\nCook,MN,249000,27031\nTazewell,IL,135500,17179\nTompkins,NY,249900,36109\nOzaukee,WI,335000,55089\nMcCracken,KY,162700,21145\nSan Patricio,TX,179999,48409\nSandusky,OH,114950,39143\nMonmouth,NJ,439900,34025\nLeFlore,OK,115000,40079\n",
+    "materialize": {
+      "date": "2019-08-29T20:12:29.405195Z",
+      "identifier": "datamart.upload"
+    },
+    "version": "v0.5.7-181-g3a969d6",
+    "id": "datamart.upload.a8241c91db1e4d75a4e4dd37cce12cd1"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [[0]],
+    "right_columns": [[3]],
+    "left_columns_names": [["FIPS"]],
+    "right_columns_names": [["FIPS"]],
+    "scores": [{ "joinability": 0.72, "correlation": 0.45 }],
+    "new_columns": [
+      [
+        {
+          "types": {},
+          "orig_name": "regionname",
+          "agg_function": "value",
+          "name": "VALUE(regionname)",
+          "score": 0.94
+        },
+        {
+          "types": {},
+          "orig_name": "state",
+          "agg_function": "value",
+          "name": "VALUE(state)",
+          "score": 0.27
+        },
+        {
+          "types": {},
+          "orig_name": "median_price",
+          "agg_function": "max",
+          "name": "MAX(median_price)",
+          "score": 0.26
+        },
+        {
+          "types": {},
+          "orig_name": "median_price",
+          "agg_function": "min",
+          "name": "MIN(median_price)",
+          "score": 0.26
+        },
+        {
+          "types": {},
+          "orig_name": "median_price",
+          "agg_function": "mean",
+          "name": "MEAN(median_price)",
+          "score": 0.26
+        },
+        {
+          "types": {},
+          "orig_name": "median_price",
+          "agg_function": "sum",
+          "name": "SUM(median_price)",
+          "score": 0.26
+        }
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.upload.a8241c91db1e4d75a4e4dd37cce12cd1",
+      "datasetName": "Zillow Median Listing Prices 2017",
+      "license": "unknown",
+      "approximateSize": "57269 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0"
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": ["csv"]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "regionname",
+            "colType": "string",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 1,
+            "colName": "state",
+            "colType": "categorical",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 2,
+            "colName": "median_price",
+            "colType": "integer",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 3,
+            "colName": "FIPS",
+            "colType": "integer",
+            "role": ["attribute"]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    ["regionname", "state", "median_price", "FIPS"],
+    ["Fayette", "TN", "310000", "47047"],
+    ["San Miguel", "NM", "199000", "35047"],
+    ["Chattooga", "GA", "89900", "13055"],
+    ["Washoe", "NV", "399000", "32031"],
+    ["Assumption", "LA", "160000", "22007"],
+    ["Cherokee", "KS", "68950", "20021"],
+    ["Pacific", "WA", "209450", "53049"],
+    ["Dodge", "MN", "208250", "27039"],
+    ["Breckinridge", "KY", "149000", "21027"],
+    ["Dekalb", "TN", "248914", "47041"],
+    ["Camden", "NC", "265900", "37029"],
+    ["Cook", "MN", "249000", "27031"],
+    ["Tazewell", "IL", "135500", "17179"],
+    ["Tompkins", "NY", "249900", "36109"],
+    ["Ozaukee", "WI", "335000", "55089"],
+    ["McCracken", "KY", "162700", "21145"],
+    ["San Patricio", "TX", "179999", "48409"],
+    ["Sandusky", "OH", "114950", "39143"],
+    ["Monmouth", "NJ", "439900", "34025"],
+    ["LeFlore", "OK", "115000", "40079"]
+  ]
+}

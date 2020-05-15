@@ -1,0 +1,525 @@
+{
+  "id": "datamart.upload.469f627ada7349f285ad22d3028bc38d",
+  "score": 10,
+  "metadata": {
+    "name": "NYC Hourly Weather Data 2010-2018",
+    "source": "upload",
+    "description": "This dataset contains hourly weather information (rain precipitation, visibility, and temperature...",
+    "date": "2020-04-30T00:20:44.178774Z",
+    "size": 2765071,
+    "nb_rows": 72312,
+    "nb_profiled_rows": 72312,
+    "columns": [
+      {
+        "name": "time",
+        "structural_type": "http://schema.org/Text",
+        "semantic_types": ["http://schema.org/DateTime"],
+        "num_distinct_values": 72312,
+        "mean": 1392467399.999115,
+        "stddev": 75148834.79289223,
+        "coverage": [
+          {
+            "range": {
+              "gte": 1266670848,
+              "lte": 1345258752
+            }
+          },
+          {
+            "range": {
+              "gte": 1440662400,
+              "lte": 1518314368
+            }
+          },
+          {
+            "range": {
+              "gte": 1353959936,
+              "lte": 1432011648
+            }
+          }
+        ],
+        "temporal_resolution": "hour",
+        "plot": {
+          "type": "histogram_temporal",
+          "data": [
+            {
+              "count": 7232,
+              "date_start": "2010-01-01T00:59:44",
+              "date_end": "2010-10-29T08:06:24"
+            },
+            {
+              "count": 7231,
+              "date_start": "2010-10-29T08:06:24",
+              "date_end": "2011-08-26T15:10:56"
+            },
+            {
+              "count": 7231,
+              "date_start": "2011-08-26T15:10:56",
+              "date_end": "2012-06-22T22:17:36"
+            },
+            {
+              "count": 7231,
+              "date_start": "2012-06-22T22:17:36",
+              "date_end": "2013-04-20T05:24:16"
+            },
+            {
+              "count": 7231,
+              "date_start": "2013-04-20T05:24:16",
+              "date_end": "2014-02-15T12:30:56"
+            },
+            {
+              "count": 7231,
+              "date_start": "2014-02-15T12:30:56",
+              "date_end": "2014-12-13T19:35:28"
+            },
+            {
+              "count": 7231,
+              "date_start": "2014-12-13T19:35:28",
+              "date_end": "2015-10-11T02:42:08"
+            },
+            {
+              "count": 7231,
+              "date_start": "2015-10-11T02:42:08",
+              "date_end": "2016-08-07T09:48:48"
+            },
+            {
+              "count": 7231,
+              "date_start": "2016-08-07T09:48:48",
+              "date_end": "2017-06-04T16:53:20"
+            },
+            {
+              "count": 7232,
+              "date_start": "2017-06-04T16:53:20",
+              "date_end": "2018-04-02T00:00:00"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Amt[PrecipHourly1]",
+        "structural_type": "http://schema.org/Float",
+        "semantic_types": [],
+        "missing_values_ratio": 0.0031944905409890473,
+        "mean": 0.24611817869917232,
+        "stddev": 1.4512776657781168,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 71783,
+              "bin_start": 0,
+              "bin_end": 9.9
+            },
+            {
+              "count": 237,
+              "bin_start": 9.9,
+              "bin_end": 19.8
+            },
+            {
+              "count": 41,
+              "bin_start": 19.8,
+              "bin_end": 29.700000000000003
+            },
+            {
+              "count": 14,
+              "bin_start": 29.700000000000003,
+              "bin_end": 39.6
+            },
+            {
+              "count": 1,
+              "bin_start": 39.6,
+              "bin_end": 49.5
+            },
+            {
+              "count": 3,
+              "bin_start": 49.5,
+              "bin_end": 59.400000000000006
+            },
+            {
+              "count": 1,
+              "bin_start": 59.400000000000006,
+              "bin_end": 69.3
+            },
+            {
+              "count": 0,
+              "bin_start": 69.3,
+              "bin_end": 79.2
+            },
+            {
+              "count": 0,
+              "bin_start": 79.2,
+              "bin_end": 89.10000000000001
+            },
+            {
+              "count": 1,
+              "bin_start": 89.10000000000001,
+              "bin_end": 99
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 0,
+              "lte": 0.5
+            }
+          },
+          {
+            "range": {
+              "gte": 14.700000000000001,
+              "lte": 39.1
+            }
+          },
+          {
+            "range": {
+              "gte": 3.05,
+              "lte": 11.5
+            }
+          }
+        ]
+      },
+      {
+        "name": "Temp[Temp]",
+        "structural_type": "http://schema.org/Float",
+        "semantic_types": [],
+        "missing_values_ratio": 1.3828963380904968e-5,
+        "mean": 12.799500981856365,
+        "stddev": 9.70152474967636,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 192,
+              "bin_start": -17.2,
+              "bin_end": -11.59
+            },
+            {
+              "count": 1338,
+              "bin_start": -11.59,
+              "bin_end": -5.98
+            },
+            {
+              "count": 5241,
+              "bin_start": -5.98,
+              "bin_end": -0.370000000000001
+            },
+            {
+              "count": 11506,
+              "bin_start": -0.370000000000001,
+              "bin_end": 5.239999999999998
+            },
+            {
+              "count": 13224,
+              "bin_start": 5.239999999999998,
+              "bin_end": 10.849999999999998
+            },
+            {
+              "count": 12203,
+              "bin_start": 10.849999999999998,
+              "bin_end": 16.459999999999997
+            },
+            {
+              "count": 12834,
+              "bin_start": 16.459999999999997,
+              "bin_end": 22.069999999999997
+            },
+            {
+              "count": 12398,
+              "bin_start": 22.069999999999997,
+              "bin_end": 27.679999999999996
+            },
+            {
+              "count": 3140,
+              "bin_start": 27.679999999999996,
+              "bin_end": 33.28999999999999
+            },
+            {
+              "count": 235,
+              "bin_start": 33.28999999999999,
+              "bin_end": 38.9
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 6.7,
+              "lte": 16.8
+            }
+          },
+          {
+            "range": {
+              "gte": 18.05,
+              "lte": 29.45
+            }
+          },
+          {
+            "range": {
+              "gte": -7.2,
+              "lte": 5.6
+            }
+          }
+        ]
+      },
+      {
+        "name": "Visby[Visibility]",
+        "structural_type": "http://schema.org/Float",
+        "semantic_types": [],
+        "missing_values_ratio": 1.3828963380904968e-5,
+        "mean": 14790.058776716245,
+        "stddev": 3508.035370091514,
+        "plot": {
+          "type": "histogram_numerical",
+          "data": [
+            {
+              "count": 3409,
+              "bin_start": 0,
+              "bin_end": 4462.7
+            },
+            {
+              "count": 2357,
+              "bin_start": 4462.7,
+              "bin_end": 8925.4
+            },
+            {
+              "count": 3944,
+              "bin_start": 8925.4,
+              "bin_end": 13388.099999999999
+            },
+            {
+              "count": 62599,
+              "bin_start": 13388.099999999999,
+              "bin_end": 17850.8
+            },
+            {
+              "count": 0,
+              "bin_start": 17850.8,
+              "bin_end": 22313.5
+            },
+            {
+              "count": 1,
+              "bin_start": 22313.5,
+              "bin_end": 26776.199999999997
+            },
+            {
+              "count": 0,
+              "bin_start": 26776.199999999997,
+              "bin_end": 31238.899999999998
+            },
+            {
+              "count": 0,
+              "bin_start": 31238.899999999998,
+              "bin_end": 35701.6
+            },
+            {
+              "count": 0,
+              "bin_start": 35701.6,
+              "bin_end": 40164.299999999996
+            },
+            {
+              "count": 1,
+              "bin_start": 40164.299999999996,
+              "bin_end": 44627
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "range": {
+              "gte": 16046.5,
+              "lte": 16093
+            }
+          },
+          {
+            "range": {
+              "gte": 200.5,
+              "lte": 6437
+            }
+          },
+          {
+            "range": {
+              "gte": 7443,
+              "lte": 12875
+            }
+          }
+        ]
+      }
+    ],
+    "sample": "time,Amt[PrecipHourly1],Temp[Temp],Visby[Visibility]\n2010-03-15 17:00:00,0.0,6.7,16093.0\n2010-08-17 17:00:00,0.0,31.1,16093.0\n2010-11-03 22:00:00,0.0,10.3,16046.5\n2010-12-28 20:00:00,0.0,2.8,16093.0\n2011-01-17 12:00:00,0.0,-6.1,16093.0\n2011-04-08 16:00:00,0.0,9.15,16046.5\n2011-04-23 19:00:00,10.3,11.433333333333332,267.3333333333333\n2011-07-04 10:00:00,0.0,21.033333333333335,2950.3333333333335\n2012-02-14 10:00:00,0.0,2.75,16046.5\n2012-11-27 13:00:00,0.0,5.0,16046.5\n2013-09-13 14:00:00,0.0,23.3,16093.0\n2013-11-25 09:00:00,0.0,-4.4,16093.0\n2014-01-18 05:00:00,0.0,3.9,16093.0\n2014-03-04 09:00:00,0.0,-9.4,16093.0\n2014-04-20 06:00:00,0.0,11.1,16093.0\n2014-09-09 23:00:00,0.0,22.1,16093.0\n2015-12-06 22:00:00,0.0,8.6,16046.5\n2016-03-06 10:00:00,0.0,0.0,16046.5\n2017-05-14 06:00:00,0.0,8.95,16093.0\n2017-05-29 14:00:00,0.5,14.2,16093.0\n",
+    "materialize": {
+      "date": "2019-08-29T20:17:46.270747Z",
+      "identifier": "datamart.upload"
+    },
+    "version": "v0.5.7-181-g3a969d6",
+    "id": "datamart.upload.469f627ada7349f285ad22d3028bc38d"
+  },
+  "augmentation": {
+    "type": "join",
+    "left_columns": [[0]],
+    "right_columns": [[0]],
+    "left_columns_names": [["datetime"]],
+    "right_columns_names": [["time"]],
+    "scores": [{ "joinability": 1.0, "correlation": 0.09 }],
+    "new_columns": [
+      [
+        {
+          "types": {},
+          "orig_name": "Amt[PrecipHourly1]",
+          "agg_function": "mean",
+          "name": "MEAN(Amt[PrecipHourly1])",
+          "score": 0.1
+        },
+        {
+          "types": {},
+          "orig_name": "Amt[PrecipHourly1]",
+          "agg_function": "sum",
+          "name": "SUM(Amt[PrecipHourly1])",
+          "score": 0.07
+        },
+        {
+          "types": {},
+          "orig_name": "Amt[PrecipHourly1]",
+          "agg_function": "max",
+          "name": "MAX(Amt[PrecipHourly1])",
+          "score": 0
+        },
+        {
+          "types": {},
+          "orig_name": "Amt[PrecipHourly1]",
+          "agg_function": "min",
+          "name": "MIN(Amt[PrecipHourly1])",
+          "score": 0.05
+        },
+        {
+          "types": {},
+          "orig_name": "Temp[Temp]",
+          "agg_function": "mean",
+          "name": "MEAN(Temp[Temp])",
+          "score": 0.05
+        },
+        {
+          "types": {},
+          "orig_name": "Temp[Temp]",
+          "agg_function": "sum",
+          "name": "SUM(Temp[Temp])",
+          "score": 0.06
+        },
+        {
+          "types": {},
+          "orig_name": "Temp[Temp]",
+          "agg_function": "MAX",
+          "name": "MAX(Temp[Temp])",
+          "score": 0.03
+        },
+        {
+          "types": {},
+          "orig_name": "Temp[Temp]",
+          "agg_function": "min",
+          "name": "MIN(Temp[Temp])",
+          "score": 0.28
+        },
+        {
+          "types": {},
+          "orig_name": "Visby[Visibility]",
+          "agg_function": "mean",
+          "name": "MEAN(Visby[Visibility])",
+          "score": 0.04
+        },
+        {
+          "types": {},
+          "orig_name": "Visby[Visibility]",
+          "agg_function": "sum",
+          "name": "SUM(Visby[Visibility])",
+          "score": 0.04
+        },
+        {
+          "types": {},
+          "orig_name": "Visby[Visibility]",
+          "agg_function": "max",
+          "name": "MAX(Visby[Visibility])",
+          "score": 0.04
+        },
+        {
+          "types": {},
+          "orig_name": "Visby[Visibility]",
+          "agg_function": "min",
+          "name": "MIN(Visby[Visibility])",
+          "score": 0.07
+        }
+      ]
+    ]
+  },
+  "supplied_id": null,
+  "supplied_resource_id": null,
+  "d3m_dataset_description": {
+    "about": {
+      "datasetID": "datamart.upload.469f627ada7349f285ad22d3028bc38d",
+      "datasetName": "NYC Hourly Weather Data 2010-2018",
+      "license": "unknown",
+      "approximateSize": "2765071 B",
+      "datasetSchemaVersion": "4.0.0",
+      "redacted": false,
+      "datasetVersion": "1.0",
+      "description": "This dataset contains hourly weather information (rain precipitation, visibility, and temperature..."
+    },
+    "dataResources": [
+      {
+        "resID": "learningData",
+        "resPath": "tables/learningData.csv",
+        "resType": "table",
+        "resFormat": {
+          "text/csv": ["csv"]
+        },
+        "isCollection": false,
+        "columns": [
+          {
+            "colIndex": 0,
+            "colName": "time",
+            "colType": "dateTime",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 1,
+            "colName": "Amt[PrecipHourly1]",
+            "colType": "real",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 2,
+            "colName": "Temp[Temp]",
+            "colType": "real",
+            "role": ["attribute"]
+          },
+          {
+            "colIndex": 3,
+            "colName": "Visby[Visibility]",
+            "colType": "real",
+            "role": ["attribute"]
+          }
+        ]
+      }
+    ]
+  },
+  "sample": [
+    ["time", "Amt[PrecipHourly1]", "Temp[Temp]", "Visby[Visibility]"],
+    ["2010-03-15 17:00:00", "0.0", "6.7", "16093.0"],
+    ["2010-08-17 17:00:00", "0.0", "31.1", "16093.0"],
+    ["2010-11-03 22:00:00", "0.0", "10.3", "16046.5"],
+    ["2010-12-28 20:00:00", "0.0", "2.8", "16093.0"],
+    ["2011-01-17 12:00:00", "0.0", "-6.1", "16093.0"],
+    ["2011-04-08 16:00:00", "0.0", "9.15", "16046.5"],
+    ["2011-04-23 19:00:00", "10.3", "11.433333333333332", "267.3333333333333"],
+    ["2011-07-04 10:00:00", "0.0", "21.033333333333335", "2950.3333333333335"],
+    ["2012-02-14 10:00:00", "0.0", "2.75", "16046.5"],
+    ["2012-11-27 13:00:00", "0.0", "5.0", "16046.5"],
+    ["2013-09-13 14:00:00", "0.0", "23.3", "16093.0"],
+    ["2013-11-25 09:00:00", "0.0", "-4.4", "16093.0"],
+    ["2014-01-18 05:00:00", "0.0", "3.9", "16093.0"],
+    ["2014-03-04 09:00:00", "0.0", "-9.4", "16093.0"],
+    ["2014-04-20 06:00:00", "0.0", "11.1", "16093.0"],
+    ["2014-09-09 23:00:00", "0.0", "22.1", "16093.0"],
+    ["2015-12-06 22:00:00", "0.0", "8.6", "16046.5"],
+    ["2016-03-06 10:00:00", "0.0", "0.0", "16046.5"],
+    ["2017-05-14 06:00:00", "0.0", "8.95", "16093.0"],
+    ["2017-05-29 14:00:00", "0.5", "14.2", "16093.0"]
+  ]
+}
